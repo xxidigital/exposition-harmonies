@@ -1,0 +1,21 @@
+{% include header.html %}
+<body>
+<header>
+    <h1><a href="{{site.url}}" title="{{page.title}}">{{page.title}}</a></h1>
+</header>
+<main>
+    {% if jekyll.environment == "development" %}
+    <h2>dev</h2>
+    {% else if jekyll.environment == "production" %}
+    <h2>build</h2>
+    {%endif%}
+    <ul>
+        {% for post in site.posts %}
+        <li>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+</main>
+
+{% include footer.html %}

@@ -1,0 +1,27 @@
+html {
+  font-size: 16px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.ghost,
+.button.ghost {
+  display: none;
+}
+
+figure {
+  margin: 0;
+  font-size: 0;
+}
+
+figure img {
+  width: 100%;
+  height: 100%;
+}

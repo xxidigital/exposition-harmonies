@@ -1,0 +1,10 @@
+@import "normalize";
+/*@import "setup.css";*/
+
+:root {
+  --base: #FF00FF;
+}
+
+body {
+  background-color: var(--base);
+}

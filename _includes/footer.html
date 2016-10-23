@@ -1,0 +1,9 @@
+<footer>
+</footer>
+{% if jekyll.environment == "development" %}
+<script src="{{site.data.process.app.js}}" charset="utf-8"></script>
+{% else if jekyll.environment == "production" %}
+<script src="{{site.data.assets.app.js}}" charset="utf-8"></script>
+{%endif%}
+</body>
+</html>

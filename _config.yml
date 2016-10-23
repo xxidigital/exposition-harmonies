@@ -1,0 +1,73 @@
+# Welcome to Jekyll!
+
+env: production
+host: localhost
+port: 8000
+process: 3003
+
+title: Histoires d'Harmonies - Exposition éphémère
+timezone: UTC+1
+
+collections:
+  exposition:
+    title: Exposition
+    output: true
+  page:
+    output: true
+  posts:
+    title: Posts
+    output: true
+    permalink: /posts/:year/:month/:day/:title.html
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: page
+    images:
+    video:
+- scope:
+    path: "/exposition/"
+    type: exposition
+  values:
+    layout: exposition
+    dates:
+    headline:
+    excerpt:
+    images:
+    videos:
+    audio:
+keep_files:
+- assets
+
+baseurl: ''
+url: "."
+
+email: jcf@xxi.fr
+description: > # Histoires d'harmonies est une eposition éphémère proposée par la ville de Commentry dans l'Allier qui se déroule du 26 novembre 2016 au 26 août 2017 à l'espace culturel "La Pléiade".
+
+twitter_username: XXI_com
+github_username:  xxidigital
+
+# Build settings
+markdown: kramdown
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - gulpfile.js
+  - README.md
+  - node_modules
+  - yarn.lock
+  - _process
+  - _static

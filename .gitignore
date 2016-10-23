@@ -1,0 +1,10 @@
+_site
+_data
+assets
+.sass-cache
+.jekyll-metadata
+node_modules
+npm-debug.log
+yarn-debug.log
+.idea
+.DS_Store
