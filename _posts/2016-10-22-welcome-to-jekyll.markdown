@@ -1,6 +1,6 @@
 ---
-title: Welcome to Jekyll!
-date: 2016-10-22 16:40:05 Z
+title: Welcome to Netlify and siteleaf!
+date: 2016-10-22 16:40:00 Z
 categories:
 - jekyll
 - update
