@@ -26,7 +26,7 @@ webpack_base.plugins.push(
 )
 
 // On extrait le CSS
-webpack_base.module.loaders.forEach(function (loader) {
+webpack_base.module.loaders.forEach( function (loader) {
   if (loader.loaders && loader.loaders.includes('css')) {
     loader.loader = ExtractTextPlugin.extract(loader.loaders)
     delete loader['loaders']
