@@ -6,7 +6,7 @@ port: 8000
 process: 3003
 
 title: Histoires d'Harmonies - Exposition éphémère
-timezone: UTC+1
+timezone: UTC
 
 collections:
   exposition:
