@@ -22,7 +22,6 @@ defaults:
     type: expos
     values:
       layout: exposition
-      headline-image:
 - scope:
     path: ''
     type: posts
