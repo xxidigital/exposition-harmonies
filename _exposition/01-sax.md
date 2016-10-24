@@ -1,5 +1,6 @@
 ---
 title: Antoine-Joseph Sax
+layout: exposition
 headline-image: "/uploads/image-640-800-1.jpeg"
 ---
 
