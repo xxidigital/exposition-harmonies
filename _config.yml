@@ -5,8 +5,8 @@ collections:
   exposition:
     title: Exposition
     output: true
-  page:
-    title: Page
+  pages:
+    title: Pages
     output: true
   posts:
     title: Posts
