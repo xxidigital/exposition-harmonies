@@ -21,13 +21,6 @@ defaults:
   values:
     layout: post
 - scope:
-    path: ''
-    type: pages
-  values:
-    layout: page
-    images:
-    video:
-- scope:
     path: "/exposition/"
     type: expositions
   values:
