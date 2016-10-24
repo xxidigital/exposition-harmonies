@@ -19,10 +19,6 @@ collections:
     output: true
 defaults:
 - scope:
-    type: expos
-    values:
-      layout: exposition
-- scope:
     path: ''
     type: posts
   values:
