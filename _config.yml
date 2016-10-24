@@ -5,9 +5,6 @@ collections:
   exposition:
     title: Exposition
     output: true
-  pages:
-    title: Pages
-    output: true
   posts:
     title: Posts
     output: true
@@ -28,19 +25,19 @@ defaults:
     type: pages
   values:
     layout: page
-    images: 
-    video: 
+    images:
+    video:
 - scope:
     path: "/exposition/"
     type: expositions
   values:
     layout: exposition
-    dates: 
-    headline-image: 
-    excerpt: 
-    gallery-images: 
-    videos: 
-    audio: 
+    dates:
+    headline-image:
+    excerpt:
+    gallery-images:
+    videos:
+    audio:
 env: production
 host: localhost
 port: 8000
