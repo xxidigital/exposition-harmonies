@@ -19,8 +19,9 @@ collections:
     output: true
 defaults:
 - scope:
-    type: expo
+    type: expos
     values:
+      layout: exposition
       headline-image:
 - scope:
     path: ''
