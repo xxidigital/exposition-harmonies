@@ -1,7 +1,6 @@
 ---
 title: premier-test
 date: 2016-10-24 13:49:00 Z
-author: 
 layout: exposition
 ---
 
