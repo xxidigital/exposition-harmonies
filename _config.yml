@@ -15,29 +15,33 @@ collections:
     title: Uploads
     output: true
 defaults:
-- scope:
+-
+  scope:
     path: ''
     type: posts
   values:
     layout: post
-- scope:
+-
+  scope:
     path: ''
     type: pages
   values:
     layout: page
-    images: 
-    video: 
-- scope:
+    images:
+    video:
+-
+  scope:
     path: "/exposition/"
-    type: exposition
+    type: expositions
   values:
     layout: exposition
-    dates: 
-    headline-image: 
-    excerpt: 
-    images: 
-    videos: 
-    audio: 
+    dates:
+    headline-image:
+    excerpt:
+    gallery-images:
+    videos:
+    audio:
+
 env: production
 host: localhost
 port: 8000
