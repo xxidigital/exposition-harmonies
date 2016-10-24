@@ -32,10 +32,11 @@ defaults:
     video:
 - scope:
     path: "/test/"
-    type: test
+    type: tests
     values:
       test-image:
       test-dates:
+      author: Monsieur Test
 - scope:
     path: "/exposition/"
     type: expositions
