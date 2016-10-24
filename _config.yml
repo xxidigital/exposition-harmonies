@@ -8,6 +8,7 @@ collections:
   posts:
     title: Posts
     output: true
+    Field name: head-image
   test:
     title: Test
     output: true
