@@ -24,7 +24,7 @@ defaults:
     path: "/test/"
     type: test
   values:
-    layout: exposition 
+    layout: exposition
 env: production
 host: localhost
 port: 8000
