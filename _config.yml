@@ -25,19 +25,19 @@ defaults:
     type: pages
   values:
     layout: page
-    images:
-    video:
+    images: 
+    video: 
 - scope:
     path: "/exposition/"
     type: exposition
   values:
     layout: exposition
-    dates:
-    headline-image:
-    excerpt:
-    images:
-    videos:
-    audio:
+    dates: 
+    headline-image: 
+    excerpt: 
+    images: 
+    videos: 
+    audio: 
 env: production
 host: localhost
 port: 8000
