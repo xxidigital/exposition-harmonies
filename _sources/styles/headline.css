@@ -1,0 +1,20 @@
+.headline__title {
+    margin: 1em 0 0;
+}
+
+.headline__dates {
+    color: var(--clair);
+    margin: 0.5em 0 0 0;
+}
+
+.headline__excerpt {
+    overflow-y: hidden;
+    max-height: 29vh;
+}
+
+.headline__image {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}

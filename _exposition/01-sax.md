@@ -1,5 +1,6 @@
 ---
 title: Antoine-Joseph Sax
+layout: exposition
 ---
 
 Mieux connu sous le nom d'Adolphe Sax, est un facteur d'instrument de musique belge, surtout connu pour avoir inventé le saxophone et le saxhorn.

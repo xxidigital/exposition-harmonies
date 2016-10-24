@@ -1,0 +1,14 @@
+.pagination__list {
+    margin: 0;
+    padding: 0;
+}
+
+.pagination li {
+    list-style: none;
+    display: inline-block;
+    margin-right: .1em;
+}
+
+.pagination__label {
+    font-size: .825em;
+}

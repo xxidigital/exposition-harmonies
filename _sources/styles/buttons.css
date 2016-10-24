@@ -1,0 +1,80 @@
+.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 3.125rem;
+    height: 3.125rem;
+    padding: 15px 12px;
+    text-align: center;
+    border: 1px solid var(--hover);
+    background-color: white;
+    border-radius: 999em;
+    vertical-align: middle;
+}
+
+a.button {
+    cursor: pointer;
+}
+
+.button * {
+    transition: all 400ms ease-in-out;
+    vertical-align: middle;
+}
+
+.button .icon {
+    text-align: center;
+    min-height: 2rem;
+    max-height: 3vw;
+}
+
+.button .icon svg {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.button .icon svg * {
+    fill: var(--hover);
+}
+
+a.button:hover {
+    border-color: var(--hover);
+    background-color: var(--hover);
+    color: var(--noir);
+}
+
+.button:hover .icon svg * {
+    fill: var(--noir);
+}
+
+.button--negative {
+    border-color: var(--noir);
+    background-color: var(--noir);
+}
+
+.button--negative .icon svg * {
+    fill: var(--hover);
+}
+
+.button--menu,
+.button--close {
+    position: absolute;
+    top: 20px;
+    left: 45px;
+}
+
+.button--menu {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, .2);
+}
+
+.button--close {
+    border-color: var(--noir);
+}
+
+.button--close .icon svg * {
+  fill: var(--noir);
+}
+
+.button--pagination {
+    background-color: var(--noir);
+}

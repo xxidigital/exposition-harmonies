@@ -1,0 +1,57 @@
+#mainboard {
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: 700ms;
+}
+
+#mainboard.state--reverse {
+    transform: rotateX(-180deg);
+}
+
+.board, #mainboard.state--reverse #frontboard, #mainboard.state--flipfen #frontboard {
+    transition: visibility 600ms, opacity 600ms, z-index 600ms ease-in-out;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 10;
+}
+
+#mainboard.state--reverse #backboard {
+    visibility: visible;
+    z-index: 20;
+    opacity: 1;
+}
+
+#mainboard.state--flip {
+    transform: rotateY(180deg);
+}
+
+#mainboard.state--flip #menu {
+    visibility: visible;
+    z-index: 20;
+    opacity: 1;
+}
+
+.board {
+    position: absolute;
+    backface-visibility: hidden;
+    width: 94vw;
+    height: auto;
+    margin-bottom: 3em;
+    box-shadow: -5px 5px 5px rgba(0, 0, 0, .3);
+    background: white;
+    color: var(--noir);
+}
+
+#frontboard {
+    overflow: hidden;
+    visibility: visible;
+    z-index: 5;
+    opacity: 1;
+}
+
+#backboard {
+    padding: 2.5em 3em 1.5em;
+    transform: rotateX(-180deg);
+    bottom: -3em;
+}

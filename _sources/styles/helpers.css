@@ -1,0 +1,10 @@
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.ghost,
+.button.ghost {
+  display: none;
+}

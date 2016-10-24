@@ -1,0 +1,31 @@
+.content h1, .content h3 {
+    margin-top: 2em;
+}
+
+.content__video {
+    position: relative;
+    margin-bottom: 1em;
+    display: inline-block;
+    width: 100%;
+}
+
+.content .content__video__title {
+  font-size: 1em;
+  line-height: 1;
+  margin: .6em 0 0;
+}
+
+.content .content__time {
+  font-size: .815em;
+  margin: 0;
+  font-style: italic;
+}
+
+.content__cmd {
+    transition: all 700ms;
+    display: inline-block;
+}
+
+.content__cmd:hover {
+  background: var(--noir);
+}

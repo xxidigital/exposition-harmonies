@@ -1,0 +1,26 @@
+.nav {
+    justify-content: flex-start;
+    flex: 1 0;
+    width: 100%;
+    min-width: 100%;
+}
+
+.nav__list {
+    margin: 0;
+    padding: 0;
+}
+
+.nav__item {
+    display: inline-block;
+    list-style: none;
+    font-size: 1em;
+    margin-left: .5em;
+}
+
+.nav__item:first-child {
+    margin-left: 0;
+}
+
+.nav__link .icon {
+    display: table-row;
+}

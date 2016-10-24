@@ -7,7 +7,7 @@ const postcss = [
   require("postcss-import")(),
   require("postcss-url")(),
   require("postcss-cssnext")({
-     browsers: ['last 2 versions', 'ie > 10']
+    browsers: ['last 2 versions', 'ie > 10']
   }),
   require("cssnano")({
     autoprefixer: false
@@ -18,6 +18,7 @@ const postcss = [
 ]
 
 let webpack_base = {
+  //devtool: 'inline-source-map',
   entry: config.entry,
   output: {
     path: config.assets_path,
@@ -28,8 +29,8 @@ let webpack_base = {
     extensions: ['', '.js', '.css', '.json'],
     alias: {
       root: path.join(__dirname, '../_static/scripts/'),
-      //components: path.join(__dirname, '../js/components'),
-    }
+      vendors: path.join(__dirname, '../vendors/'),
+    },
   },
   module: {
     loaders: [
@@ -86,5 +87,4 @@ if (config.html) {
     })
   )
 }
-
 module.exports = webpack_base

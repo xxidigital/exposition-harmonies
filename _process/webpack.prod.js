@@ -2,6 +2,7 @@
 const webpack = require('webpack')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const ProgressBarPlugin = require('progress-bar-webpack-plugin')
+const CopyPlugin = require('copy-webpack-plugin')
 const AssetsPlugin = require('assets-webpack-plugin')
 const webpack_base = require('./webpack.base')
 const config = require('./config')
@@ -22,7 +23,10 @@ webpack_base.plugins.push(
     },
     comments: false
   }),
-  new AssetsPlugin({filename: config.data_path + 'assets.json'})
+  new AssetsPlugin({filename: config.data_path + 'assets.json'}),
+  new CopyPlugin( [
+    {from: config.sources_path + 'graphics/', to: 'graphics/'},
+  ])
 )
 
 // On extrait le CSS

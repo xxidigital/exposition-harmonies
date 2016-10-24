@@ -1,0 +1,9 @@
+#main {
+    position: relative;
+    padding: 5vh 3vw;
+    width: 100vw;
+    height: 100vh;
+    perspective: 1200px;
+    -webkit-perspective: 1200px;
+    -moz-perspective: 1200px;
+}
