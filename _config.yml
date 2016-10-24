@@ -21,22 +21,22 @@ defaults:
   values:
     layout: post
 - scope:
-    path: '/test/'
+    path: "/test/"
     type: test
   values:
     layout: test
-    author:
+    author: 
 - scope:
-    path: '/exposition/'
+    path: "/exposition/"
     type: exposition
   values:
     layout: exposition
-    dates:
-    headline-image:
-    excerpt:
-    gallery-images:
-    videos:
-    audio:
+    dates: 
+    headline-image: 
+    excerpt: 
+    gallery-images: 
+    videos: 
+    audio: 
 env: production
 host: localhost
 port: 8000
