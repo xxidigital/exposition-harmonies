@@ -24,19 +24,7 @@ defaults:
     path: "/test/"
     type: test
   values:
-    layout: test
-    author: 
-- scope:
-    path: "/exposition/"
-    type: exposition
-  values:
-    layout: exposition
-    dates: 
-    headline-image: 
-    excerpt: 
-    gallery-images: 
-    videos: 
-    audio: 
+    layout: exposition 
 env: production
 host: localhost
 port: 8000
