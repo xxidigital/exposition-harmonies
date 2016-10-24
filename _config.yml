@@ -28,19 +28,25 @@ defaults:
     type: pages
   values:
     layout: page
-    images: 
-    video: 
+    images:
+    video:
+- scope:
+    path: "/test/"
+    type: test
+    values:
+      test-image:
+      test-dates:
 - scope:
     path: "/exposition/"
     type: expositions
   values:
     layout: exposition
-    dates: 
-    headline-image: 
-    excerpt: 
-    gallery-images: 
-    videos: 
-    audio: 
+    dates:
+    headline-image:
+    excerpt:
+    gallery-images:
+    videos:
+    audio:
 env: production
 host: localhost
 port: 8000
