@@ -2,6 +2,9 @@
 title: Histoires d'Harmonies - Exposition éphémère
 timezone: UTC
 collections:
+  expo:
+    title: Expo
+    output: true
   exposition:
     title: Exposition
     output: true
