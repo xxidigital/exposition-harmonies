@@ -23,31 +23,30 @@ defaults:
 - scope:
     path: "/test/"
     type: test
-    layout: exposition
   values:
     layout: test
-    author:
+    author: 
 - scope:
     path: "/exposition/"
     type: exposition
   values:
     layout: exposition
-    dates:
-    headline-image:
-    excerpt:
-    gallery-images:
-    videos:
-    audio:
+    dates: 
+    headline-image: 
+    excerpt: 
+    gallery-images: 
+    videos: 
+    audio: 
 env: production
 host: localhost
 port: 8000
 process: 3003
 keep_files:
 - assets
-baseurl:
+baseurl: 
 url: "."
 email: jcf@xxi.fr
-description:
+description: 
 twitter_username: XXI_com
 github_username: xxidigital
 markdown: kramdown
