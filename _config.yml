@@ -21,8 +21,14 @@ defaults:
     path: exposition
     type: exposition
   values:
-    headline-image: 
-    dates: 
+    headline-image:
+    dates:
+    gallery-images:
+    videos:
+    - image:
+      url:
+      titre:
+      durée:
     layout: exposition
 env: production
 host: localhost
@@ -30,10 +36,10 @@ port: 8000
 process: 3003
 keep_files:
 - assets
-baseurl: 
+baseurl:
 url: "."
 email: jcf@xxi.fr
-description: 
+description:
 twitter_username: XXI_com
 github_username: xxidigital
 markdown: kramdown
