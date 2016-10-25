@@ -14,6 +14,7 @@ body {
     font: normal normal 1em/1.7 "Raleway", Arial, sans-serif;
     background-color: rgba(0, 0, 0, .07);
     color: var(--noir);
+    background: red
 }
 
 * {

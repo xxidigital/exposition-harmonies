@@ -2,14 +2,11 @@
 title: Histoires d'Harmonies - Exposition éphémère
 timezone: UTC
 collections:
-  exposition:
-    title: Exposition
-    output: true
   posts:
     title: Posts
     output: true
-  test:
-    title: Test
+  exposition:
+    title: Exposition
     output: true
   uploads:
     title: Uploads
@@ -21,23 +18,12 @@ defaults:
   values:
     layout: post
 - scope:
-    path: "/test/"
-    type: test
-    layout: exposition
-  values:
-    layout: test
-    author:
-- scope:
-    path: "/exposition/"
+    path: exposition
     type: exposition
   values:
-    layout: exposition
-    dates:
     headline-image:
-    excerpt:
-    gallery-images:
-    videos:
-    audio:
+    dates:
+    layout: exposition
 env: production
 host: localhost
 port: 8000

@@ -18,9 +18,9 @@
                 <span data-inject="vector" data-file="icon--menu" class="icon"></span>
                 <span class="ghost">Menu</span>
               </a>
-              <figure class="headline__image" style="background-image:url('../uploads/image-640-800-1.jpeg')">
-                <!-- <img src="./uploads/image-640-800-1.jpeg" alt="" /> -->
-              </figure>
+              {% if page.headline-image %}
+              <figure class="headline__image" style="background-image:url('{{page.headline-image}}')"></figure>
+              {% endif %}
             </div>
             <!-- /LEFTSIDE -->
 
@@ -61,12 +61,12 @@
                 <article class="headline">
                   <header class="headline__header">
                     <h1 class="headline__title">{{page.title}}</h1>
-                    <p class="headline__dates">{0000 - 0000}</p>
+                    {% if page.dates %}
+                    <p class="headline__dates">{ {{page.dates}} }</p>
+                    {% endif %}
                   </header>
                   <div class="headline__excerpt">
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
+                    <p>{{ page.content | strip_html | truncatewords: 90 }}</p>
                   </div>
                 </article>
                 <!-- /ARTICLE -->
@@ -141,61 +141,23 @@
               </article>
               <!-- /CONTENT--TEXT -->
 
+              {% if page.gallery-images %}
               <!-- CONTENT--GALLERY -->
               <article class="content" id="content--gallery">
                 <h3>Galerie d'images</h3>
                 <ul class="gallery">
+                  {% for picture in page.gallery-images %}
                   <li class="gallery__item">
-                    <a class="gallery__figure popover"  data-type="image" href="../uploads/image-800-640-1.jpeg">
-                      <img src="../uploads/image-800-640-1.jpeg" alt="" class="gallery__image" />
+                    <a class="gallery__figure popover"  data-type="image" href="{{ picture }}">
+                      <img src="{{ picture }}" alt="image concernant {{ page.title }}" class="gallery__image" />
                       <span data-inject="vector" data-file="icon--extended" class="icon"></span>
                     </a>
                   </li>
-                  <li class="gallery__item">
-                    <a class="gallery__figure popover"  data-type="image" href="../uploads/image-800-640-5.jpeg">
-                      <img src="../uploads/image-800-640-5.jpeg" alt="" class="gallery__image" />
-                      <span data-inject="vector" data-file="icon--extended" class="icon"></span>
-                    </a>
-                  </li>
-                  <li class="gallery__item">
-                    <a class="gallery__figure popover"  data-type="image" href="../uploads/image-800-640-6.jpeg">
-                      <img src="../uploads/image-800-640-6.jpeg" alt="" class="gallery__image" />
-                      <span data-inject="vector" data-file="icon--extended" class="icon"></span>
-                    </a>
-                  </li>
-                  <li class="gallery__item">
-                    <a class="gallery__figure popover"  data-type="image" href="../uploads/image-800-640-8.jpeg">
-                      <img src="../uploads/image-800-640-8.jpeg" alt="" class="gallery__image" />
-                      <span data-inject="vector" data-file="icon--extended" class="icon"></span>
-                    </a>
-                  </li>
-                  <li class="gallery__item">
-                    <a class="gallery__figure popover"  data-type="image" href="../uploads/image-800-640-1.jpeg">
-                      <img src="../uploads/image-800-640-1.jpeg" alt="" class="gallery__image" />
-                      <span data-inject="vector" data-file="icon--extended" class="icon"></span>
-                    </a>
-                  </li>
-                  <li class="gallery__item">
-                    <a class="gallery__figure popover"  data-type="image" href="../uploads/image-800-640-5.jpeg">
-                      <img src="../uploads/image-800-640-5.jpeg" alt="" class="gallery__image" />
-                      <span data-inject="vector" data-file="icon--extended" class="icon"></span>
-                    </a>
-                  </li>
-                  <li class="gallery__item">
-                    <a class="gallery__figure popover"  data-type="image" href="../uploads/image-800-640-6.jpeg">
-                      <img src="../uploads/image-800-640-6.jpeg" alt="" class="gallery__image" />
-                      <span data-inject="vector" data-file="icon--extended" class="icon"></span>
-                    </a>
-                  </li>
-                  <li class="gallery__item">
-                    <a class="gallery__figure popover"  data-type="image" href="../uploads/image-800-640-8.jpeg">
-                      <img src="../uploads/image-800-640-8.jpeg" alt="" class="gallery__image" />
-                      <span data-inject="vector" data-file="icon--extended" class="icon"></span>
-                    </a>
-                  </li>
+                  {% endfor %}
                 </ul>
               </article>
               <!-- /CONTENT--GALLERY -->
+              {% endif %}
 
               <!-- CONTENT--VIDEO -->
               <article class="content" id="content--video">

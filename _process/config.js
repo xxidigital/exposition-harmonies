@@ -9,5 +9,5 @@ module.exports = {
   assets_path: './assets/', // Build Path
   data_path: './_data/', // Datas Folder
   sources_path: './_sources/', // Sources Folder
-  refresh: ['./**/*.html'] // Permet de forcer le rafraichissement du navigateur lors de la modification de ces fichiers
+  //refresh: ['./**/*.html'] // Permet de forcer le rafraichissement du navigateur lors de la modification de ces fichiers
 }

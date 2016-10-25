@@ -6,8 +6,8 @@ const CopyPlugin = require('copy-webpack-plugin')
 const AssetsPlugin = require('assets-webpack-plugin')
 const config = require('./config')
 
-//webpack_base.devtool = 'cheap-module-eval-source-map'
-webpack_base.devtool = 'inline-source-map'
+webpack_base.devtool = 'cheap-module-eval-source-map'
+//webpack_base.devtool = 'inline-source-map'
 webpack_base.output.publicPath = config.local +':' + config.port + config.assets_url
 webpack_base.output.path = '/tmp/'
 for (var name in webpack_base.entry) {

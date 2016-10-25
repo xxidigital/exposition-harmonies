@@ -33,9 +33,11 @@
 }
 
 .board {
+    background-color: green;
     position: absolute;
     backface-visibility: hidden;
     width: 94vw;
+    min-height: 85vh;
     height: auto;
     margin-bottom: 3em;
     box-shadow: -5px 5px 5px rgba(0, 0, 0, .3);
