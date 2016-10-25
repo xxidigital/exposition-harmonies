@@ -3,10 +3,10 @@ title: Antoine-Joseph Sax
 headline-image: "/uploads/image-640-800-1.jpeg"
 dates: 1814 ~ 1894
 gallery-images:
-  - "/uploads/image-800-640-1.jpeg"
-  - "/uploads/image-800-640-5.jpeg"
-  - "/uploads/image-800-640-6.jpeg"
-  - "/uploads/image-800-640-8.jpeg"
+- "/uploads/image-800-640-1.jpeg"
+- "/uploads/image-800-640-5.jpeg"
+- "/uploads/image-800-640-6.jpeg"
+- "/uploads/image-800-640-8.jpeg"
 videos:
 - image: "/uploads/image-800-640-1.jpeg"
   url: https://www.youtube.com/watch?v=dcFR6-KsYeM

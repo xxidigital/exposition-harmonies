@@ -4,12 +4,10 @@ date: 2016-10-24 13:34:00 Z
 layout: exposition
 headline-image: "/uploads/image-640-800-2.jpeg"
 gallery-images:
-  - "/uploads/image-800-640-1.jpeg"
-  - "/uploads/image-800-640-5.jpeg"
-  - "/uploads/image-800-640-6.jpeg"
+- "/uploads/image-800-640-1.jpeg"
+- "/uploads/image-800-640-5.jpeg"
+- "/uploads/image-800-640-6.jpeg"
 ---
-
-
 
 Mollitia quaerat eligendi eos id et et fugit. Et rem magni consequatur sed corrupti vitae itaque et. A in distinctio magni cum aperiam voluptatum minus. Non maiores voluptas et sequi molestias perferendis et accusantium. Qui sit consequatur error dignissimos. Qui iusto quae nihil voluptas porro.
 

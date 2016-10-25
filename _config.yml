@@ -2,11 +2,11 @@
 title: Histoires d'Harmonies - Exposition éphémère
 timezone: UTC
 collections:
-  posts:
-    title: Posts
-    output: true
   exposition:
     title: Exposition
+    output: true
+  posts:
+    title: Posts
     output: true
   uploads:
     title: Uploads
@@ -21,8 +21,8 @@ defaults:
     path: exposition
     type: exposition
   values:
-    headline-image:
-    dates:
+    headline-image: 
+    dates: 
     layout: exposition
 env: production
 host: localhost
@@ -30,10 +30,10 @@ port: 8000
 process: 3003
 keep_files:
 - assets
-baseurl:
+baseurl: 
 url: "."
 email: jcf@xxi.fr
-description:
+description: 
 twitter_username: XXI_com
 github_username: xxidigital
 markdown: kramdown
