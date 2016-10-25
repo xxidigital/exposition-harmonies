@@ -1,8 +1,7 @@
-:root {
-    --noir: #222533;
-    --clair: #B0B1B6;
-    --hover: #BBA569;
-}
+$noir: #222533;
+$clair: #B0B1B6;
+$hover: #BBA569;
+
 
 html {
   font-size: 16px;
@@ -13,8 +12,7 @@ body {
     margin: 0;
     font: normal normal 1em/1.7 "Raleway", Arial, sans-serif;
     background-color: rgba(0, 0, 0, .07);
-    color: var(--noir);
-    background: red
+    color: $noir;
 }
 
 * {

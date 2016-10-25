@@ -1,6 +1,6 @@
 module.exports = {
   entry: {
-    app: ['./_sources/styles/app.css', './_sources/scripts/app.js']
+    app: ['./_sources/styles/app.scss', './_sources/scripts/app.js']
   },
   local: 'http://localhost',
   port: 3003,

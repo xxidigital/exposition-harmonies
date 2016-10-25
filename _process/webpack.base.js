@@ -4,21 +4,13 @@ const webpack = require('webpack')
 const config = require('./config')
 
 const postcss = [
-  require("postcss-import")(),
-  require("postcss-url")(),
-  require("postcss-cssnext")({
+  require("cssnano")({
     browsers: ['last 2 versions', 'ie > 10']
   }),
-  require("cssnano")({
-    autoprefixer: false
-  }),
   require("css-mqpacker")(),
-  // require("postcss-browser-reporter")(),
-  // require("postcss-reporter")(),
 ]
 
 let webpack_base = {
-  //devtool: 'inline-source-map',
   entry: config.entry,
   output: {
     path: config.assets_path,
@@ -28,8 +20,8 @@ let webpack_base = {
   resolve: {
     extensions: ['', '.js', '.css', '.json'],
     alias: {
-      root: path.join(__dirname, '../_static/scripts/'),
-      vendors: path.join(__dirname, '../vendors/'),
+      root: path.join(__dirname, '../_sources/scripts/'),
+      //vendors: path.join(__dirname, '../vendors/'),
     },
   },
   module: {
@@ -45,15 +37,11 @@ let webpack_base = {
         loaders: ['css', 'postcss', 'sass']
       },
       {
-        test: /\.css$/,
-        loaders: ['css', 'postcss']
-      }, {
         test: /\.(png|jpe?g|gif|svg|woff2?|eot|ttf|otf|wav)(\?.*)?$/,
         loader: 'url',
         query: {
           limit: 10,
           name: '[name].[hash:7].[ext]'
-          //name: '[name].[ext]'
         }
       }
     ]
@@ -67,10 +55,6 @@ let webpack_base = {
     plugins: ["transform-runtime"]
   },
   postcss,
-  vue: {
-    loaders: {},
-    postcss
-  },
   plugins: [],
   devServer: {
     headers: { "Access-Control-Allow-Origin": "*" }

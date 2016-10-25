@@ -3,6 +3,8 @@
 
     // Document ready
     document.addEventListener('DOMContentLoaded', function() {
+      console.log("test");
+
         // DISPLAY BUTTONS
         [].map.call(document.querySelectorAll('.content'), function(contenus) {
           var cibleId = contenus.id;

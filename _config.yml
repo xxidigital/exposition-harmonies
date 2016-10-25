@@ -29,6 +29,10 @@ defaults:
       url:
       titre:
       durée:
+    audio:
+    - url:
+      titre:
+      durée:
     layout: exposition
 env: production
 host: localhost

@@ -16,9 +16,9 @@
 }
 
 .logotype svg * {
-    fill: var(--hover);
+    fill: $hover;
 }
 
 .logotype--negative svg * {
-    fill: var(--noir);
+    fill: $noir;
 }

@@ -3,6 +3,7 @@ var config = require('./config')
 
 // From https://raw.githubusercontent.com/glenjamin/webpack-hot-middleware/master/client.js
 var options = {
+  //path: "http://localhost:" + config.port + "/__webpack_hmr",
   path: config.local + ":" + config.port + "/__webpack_hmr",
   timeout: 20 * 1000,
   overlay: true,

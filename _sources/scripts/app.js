@@ -6,6 +6,6 @@ require('./controls.js');
     "use strict"
     // Document ready
     document.addEventListener('DOMContentLoaded', function() {
-        console.log('scripts loaded');
+        console.log('scripts chargés');
     }); // Document.ready
 }());

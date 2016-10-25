@@ -6,7 +6,7 @@
     height: 3.125rem;
     padding: 15px 12px;
     text-align: center;
-    border: 1px solid var(--hover);
+    border: 1px solid $hover;
     background-color: white;
     border-radius: 999em;
     vertical-align: middle;
@@ -34,26 +34,26 @@ a.button {
 }
 
 .button .icon svg * {
-    fill: var(--hover);
+    fill: $hover;
 }
 
 a.button:hover {
-    border-color: var(--hover);
-    background-color: var(--hover);
-    color: var(--noir);
+    border-color: $hover;
+    background-color: $hover;
+    color: $noir;
 }
 
 .button:hover .icon svg * {
-    fill: var(--noir);
+    fill: $noir;
 }
 
 .button--negative {
-    border-color: var(--noir);
-    background-color: var(--noir);
+    border-color: $noir;
+    background-color: $noir;
 }
 
 .button--negative .icon svg * {
-    fill: var(--hover);
+    fill: $hover;
 }
 
 .button--menu,
@@ -68,13 +68,13 @@ a.button:hover {
 }
 
 .button--close {
-    border-color: var(--noir);
+    border-color: $noir;
 }
 
 .button--close .icon svg * {
-  fill: var(--noir);
+  fill: $noir;
 }
 
 .button--pagination {
-    background-color: var(--noir);
+    background-color: $noir;
 }

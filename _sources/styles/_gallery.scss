@@ -22,7 +22,7 @@
 .gallery__figure .icon svg *,
 .content__cmd svg * {
     transition: fill 700ms;
-    fill: var(--noir);
+    fill: $noir;
 }
 
 .gallery__figure:hover img,
@@ -32,7 +32,7 @@
 
 .gallery__figure:hover .icon svg *,
 .content__cmd:hover svg * {
-    fill: var(--hover);
+    fill: $hover;
 }
 
 .gallery__list {
@@ -60,7 +60,7 @@
 }
 
 .gallery__figure:hover {
-  background-color: var(--noir);
+  background-color: $noir;
 }
 
 .gallery__figure img {

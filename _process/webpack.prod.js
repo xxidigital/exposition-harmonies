@@ -9,11 +9,9 @@ const config = require('./config')
 
 webpack_base.devtool = false
 webpack_base.output.filename = '[name].[chunkhash:8].js'
-//webpack_base.output.filename = '[name].min.js'
 webpack_base.plugins.push(
   new ProgressBarPlugin(),
   new ExtractTextPlugin('[name].[contenthash:8].css'),
-  //new ExtractTextPlugin('[name].min.css'),
   new webpack.DefinePlugin({
     'process.env.NODE_ENV': JSON.stringify('production')
   }),

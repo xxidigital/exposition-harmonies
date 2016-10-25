@@ -31,5 +31,5 @@ server.listen(3003, function (err) {
     return
   }
   chokidar.watch(config.refresh).on('change', refresh)
-  console.log('==> Listening on '+config.local+':'+config.port+'/')
+  console.log('==> Listening on ' + config.local + ':' + config.port + '/')
 })

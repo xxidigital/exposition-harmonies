@@ -6,8 +6,8 @@
     width: 100%;
     min-width: 100%;
     height: 80px;
-    background: var(--noir);
-    color: var(--hover);
+    background: $noir;
+    color: $hover;
 }
 
 #baseline:before {
@@ -18,7 +18,7 @@
     top: -30px;
     height: 75px;
     transform: skew(0, -2deg);
-    background: var(--noir);
+    background: $noir;
 }
 
 .baseline__container {

@@ -6,6 +6,7 @@
   "scripts": {
     "updates": "npm-check-updates -u",
     "build": "rimraf assets && webpack --config _process/webpack.prod.js && rimraf _site && JEKYLL_ENV=production jekyll build",
+    "front": "node _process/server.js",
     "dev": "concurrently \"node _process/server.js\" \"bundle exec jekyll serve\" --kill-others",
     "gh": "npm run build && gh-pages -d dist"
   },
@@ -31,10 +32,7 @@
     "file-loader": "^0.9.0",
     "html-webpack-plugin": "^2.22.0",
     "node-sass": "^3.4.2",
-    "postcss-cssnext": "^2.8.0",
-    "postcss-import": "^8.1.2",
     "postcss-loader": "^0.13.0",
-    "postcss-url": "^5.1.2",
     "progress-bar-webpack-plugin": "^1.9.0",
     "rimraf": "^2.5.4",
     "sass-loader": "^4.0.2",
