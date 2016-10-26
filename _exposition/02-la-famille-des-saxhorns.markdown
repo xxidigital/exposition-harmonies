@@ -3,7 +3,7 @@ title: La famille des saxhorns
 date: 2016-10-24 13:34:00 Z
 layout: exposition
 headline-image: "/uploads/image-640-800-2.jpeg"
-gallery-images:
+galerie-images:
 - "/uploads/image-800-640-1.jpeg"
 - "/uploads/image-800-640-5.jpeg"
 - "/uploads/image-800-640-6.jpeg"

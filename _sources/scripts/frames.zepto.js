@@ -1,6 +1,6 @@
 (function($) { $(document).ready(function($){
     $('.popover').click(function(){
-      if($(document).width() > 980) {
+      if($(document).width() > 576) {
           $(this).generateFrame();
         return false;
       }

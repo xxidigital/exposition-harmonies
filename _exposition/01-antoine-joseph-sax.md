@@ -2,7 +2,7 @@
 title: Antoine-Joseph Sax
 headline-image: "/uploads/image-640-800-1.jpeg"
 dates: 1814 ~ 1894
-gallery-images:
+galerie-images:
 - "/uploads/image-800-640-1.jpeg"
 - "/uploads/image-800-640-5.jpeg"
 - "/uploads/image-800-640-6.jpeg"
@@ -11,11 +11,15 @@ videos:
 - image: "/uploads/image-800-640-1.jpeg"
   url: https://www.youtube.com/watch?v=dcFR6-KsYeM
   titre: Titre de la vidéo
-  durée: 2mins
+  duree: 2mins
 - image: "/uploads/image-800-640-8.jpeg"
   url: https://www.youtube.com/watch?v=-bLqySDykww
   titre: Second titre de vidéo
-  durée: 1min
+  duree: 1min
+audio:
+- reference: 1306303589
+  url: https://goat.bandcamp.com/album/requiem
+  titre: Requiem by Goat
 layout: exposition
 ---
 

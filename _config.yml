@@ -23,16 +23,16 @@ defaults:
   values:
     headline-image:
     dates:
-    gallery-images:
+    galerie-images:
     videos:
     - image:
       url:
       titre:
       durée:
     audio:
-    - url:
+      reference:
+      url:
       titre:
-      durée:
     layout: exposition
 env: production
 host: localhost

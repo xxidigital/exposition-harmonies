@@ -1,0 +1,15 @@
+<!-- CONTENT--GALERIE -->
+<article class="content" id="content--gallery">
+  <h3>Galerie d'images</h3>
+  <ul class="gallery">
+    {% for picture in page.galerie-images %}
+    <li class="gallery__item">
+      <a class="gallery__figure popover"  data-type="image" href="{{ picture }}">
+        <img src="{{ picture }}" alt="image concernant {{ page.title }}" class="gallery__image" />
+        <span data-inject="vector" data-file="icon--extended" class="icon"></span>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</article>
+<!-- /CONTENT--GALERIE -->

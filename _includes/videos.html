@@ -1,0 +1,18 @@
+<!-- CONTENT--VIDEO -->
+<article class="content" id="content--video">
+  <h3>Les vidéos</h3>
+  {% for video in page.videos  %}
+  <div class="content__video">
+    <figure class="content__figure">
+      <a href="{{ video.url }}" target="_blank" data-type="video" class="content__cmd popover" title="voir la vidéo">
+        <img src="{{ video.image }}" alt="" />
+        <span class="ghost">Voir la vidéo</span>
+        <span data-inject="vector" data-file="icon--play" class="icon"></span>
+      </a>
+    </figure>
+    <h3 class="content__video__title"><strong>{{ video.titre }}</strong></h3>
+    <p class="content__time">{{ video.duree }}</p>
+  </div>
+  {% endfor %}
+</article>
+<!-- /CONTENT--VIDEO -->

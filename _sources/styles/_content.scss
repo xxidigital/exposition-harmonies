@@ -21,6 +21,17 @@
   font-style: italic;
 }
 
+.content__audio {
+
+}
+
+.frame--audio {
+  border: 0;
+  width: 100%;
+  max-width: calc(94vw - 6em);
+  height: calc(90vh - 5em - 9rem);
+}
+
 .content__cmd {
     transition: all 700ms;
     display: inline-block;
