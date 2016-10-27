@@ -4,10 +4,12 @@
     // Document ready
     document.addEventListener('DOMContentLoaded', function() {
         // DISPLAY BUTTONS
+        /*
         [].map.call(document.querySelectorAll('.content'), function(contenus) {
           var cibleId = contenus.id;
           document.querySelector('[data-target="#'+cibleId+'"]').classList.remove('ghost');
         });
+        */
 
         // DISPLAY MEDIAS
         [].map.call(document.querySelectorAll(".cmd--reverse"), function(element) {

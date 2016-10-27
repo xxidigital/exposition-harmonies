@@ -1,0 +1,15 @@
+<!-- MENU -->
+<nav id="menu" class="board menu">
+    <a href="#mainboard" class="button button--close cmd--flip" id="btn--hide">
+      <span class="ghost">fermer la fenêtre</span>
+      <span data-inject="vector" data-file="icon--close" class="icon"></span>
+    </a>
+    <ul class="menu__list">
+        {% for chapter in site.exposition %}
+        <li class="menu__item">
+            <a href="{{ chapter.url }}" class="menu__link" title="{{ chapter.title }}">{% assign nombre = forloop.index %}{% if forloop.index < 10 %}{% assign nombre = nombre | prepend: '0' %}{% endif %}{{ nombre }} {{ chapter.title }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+</nav>
+<!-- /MENU -->

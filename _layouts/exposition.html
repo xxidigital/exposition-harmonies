@@ -29,30 +29,38 @@
                 <!-- INLINE NAV -->
                 <nav class="nav">
                   <ul class="nav__list">
+                    {% if page.content %}
                     <li class="nav__item">
-                      <a href="#mainboard" data-target="#content--text" class="ghost cmd--reverse button nav__link" id="btn--open">
+                      <a href="#mainboard" data-target="#content--text" class="cmd--reverse button nav__link" id="btn--open">
                         <span data-inject="vector" data-file="icon--text" class="icon"></span>
                         <span class="ghost">Texte</span>
                       </a>
                     </li>
+                    {% endif %}
+                    {% if page.galerie-images %}
                     <li class="nav__item">
-                      <a href="#mainboard" data-target="#content--gallery" class="ghost cmd--reverse button nav__link" id="btn--open">
+                      <a href="#mainboard" data-target="#content--gallery" class="cmd--reverse button nav__link" id="btn--open">
                         <span data-inject="vector" data-file="icon--gallery" class="icon"></span>
                         <span class="ghost">Galerie</span>
                       </a>
                     </li>
+                    {% endif %}
+                    {% if page.videos  %}
                     <li class="nav__item">
-                      <a href="#mainboard" data-target="#content--video" class="ghost cmd--reverse button nav__link" id="btn--open">
+                      <a href="#mainboard" data-target="#content--video" class="cmd--reverse button nav__link" id="btn--open">
                         <span data-inject="vector" data-file="icon--tv" class="icon"></span>
                         <span class="ghost">Videos</span>
                       </a>
                     </li>
+                    {% endif %}
+                    {% if page.audio %}
                     <li class="nav__item">
-                      <a href="#mainboard" data-target="#content--audio" class="ghost cmd--reverse button nav__link" id="btn--open">
+                      <a href="#mainboard" data-target="#content--audio" class="cmd--reverse button nav__link" id="btn--open">
                         <span data-inject="vector" data-file="icon--audio" class="icon"></span>
                         <span class="ghost">Audio</span>
                       </a>
                     </li>
+                    {% endif %}
                   </ul>
                 </nav>
                 <!-- /INLINE NAV -->
@@ -73,8 +81,8 @@
 
               </div>
               <!-- /RIGHTSIDE -->
-
               {% include baseline.html %}
+
             </div>
             <!-- /WRAPPER -->
           </section>
@@ -111,68 +119,12 @@
           </section>
           <!-- /BOARD -->
 
-          <!-- MENU -->
-          <nav id="menu" class="board menu">
-              <a href="#mainboard" class="button button--close cmd--flip" id="btn--hide">
-                <span class="ghost">fermer la fenêtre</span>
-                <span data-inject="vector" data-file="icon--close" class="icon"></span>
-              </a>
-              <ul class="menu__list">
-                  <li class="menu__item">
-                      <a href="#" class="menu__link" title="menu item 1">menu item 1</a>
-                  </li>
-                  <li class="menu__item">
-                      <a href="#" class="menu__link" title="menu item 2">menu item 2</a>
-                  </li>
-                  <li class="menu__item">
-                      <a href="#" class="menu__link" title="menu item 3">menu item 3</a>
-                  </li>
-                  <li class="menu__item">
-                      <a href="#" class="menu__link" title="menu item 4">menu item 4</a>
-                  </li>
-                  <li class="menu__item">
-                      <a href="#" class="menu__link" title="menu item 5">menu item 5</a>
-                  </li>
-                  <li class="menu__item">
-                      <a href="#" class="menu__link" title="menu item 6">menu item 6</a>
-                  </li>
-                  <li class="menu__item">
-                      <a href="#" class="menu__link" title="menu item 7">menu item 7</a>
-                  </li>
-                  <li class="menu__item">
-                      <a href="#" class="menu__link" title="menu item 8">menu item 8</a>
-                  </li>
-                  <li class="menu__item">
-                      <a href="#" class="menu__link" title="menu item 9">menu item 9</a>
-                  </li>
-                  <li class="menu__item">
-                      <a href="#" class="menu__link" title="menu item 10">menu item 10</a>
-                  </li>
-                  <li class="menu__item">
-                      <a href="#" class="menu__link" title="menu item 11">menu item 11</a>
-                  </li>
-                  <li class="menu__item">
-                      <a href="#" class="menu__link" title="menu item 12">menu item 12</a>
-                  </li>
-                  <li class="menu__item">
-                      <a href="#" class="menu__link" title="menu item 13">menu item 13</a>
-                  </li>
-                  <li class="menu__item">
-                      <a href="#" class="menu__link" title="menu item 14">menu item 14</a>
-                  </li>
-                  <li class="menu__item">
-                      <a href="#" class="menu__link" title="menu item 15">menu item 15</a>
-                  </li>
-              </ul>
-          </nav>
-          <!-- /MENU -->
+          {% include menu.html %}
 
         </div>
         <!-- /MAINBOARD  -->
 
     </main>
     <!-- /MAIN -->
-
-
 
 {% include footer.html %}

@@ -37,12 +37,21 @@ let webpack_base = {
         loaders: ['css', 'postcss', 'sass']
       },
       {
-        test: /\.(png|jpe?g|gif|svg|woff2?|eot|ttf|otf|wav)(\?.*)?$/,
+        test: /\.(png|jpe?g|gif|svg|wav)(\?.*)?$/,
         loader: 'url',
         query: {
           limit: 10,
           name: '[name].[hash:7].[ext]'
         }
+      },
+      {
+        test: /\.css$/,
+        vue:'css',
+        loaders: ['css', 'postcss']
+      },
+      {
+        test: /\.(woff|ttf|eot)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
+        loader: 'base64-font'
       }
     ]
   },

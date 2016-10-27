@@ -5,6 +5,7 @@ collections:
   exposition:
     title: Exposition
     output: true
+    permalink: /:collection/:title.html
   posts:
     title: Posts
     output: true
@@ -34,7 +35,7 @@ defaults:
       url:
       titre:
     layout: exposition
-env: production
+# env: production
 host: localhost
 port: 8000
 process: 3003
@@ -42,6 +43,7 @@ keep_files:
 - assets
 baseurl:
 url: "."
+analytics: UA-XXXXX-Y
 email: jcf@xxi.fr
 description:
 twitter_username: XXI_com

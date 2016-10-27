@@ -2,11 +2,7 @@
 <article class="content" id="content--audio" >
   <h3>Galerie de sons</h3>
   {% for audio in page.audio %}
-  <div class="content__audio"data-reference="{{ audio.reference }}" data-url="{{ audio.url }}" data-titre="{{ audio.titre }}">
-    <!--
-    <iframe class="frame--audio" src="https://bandcamp.com/EmbeddedPlayer/album={{ audio.reference }}/size=large/bgcol=ffffff/linkcol=BBA569/artwork=none/transparent=true/" seamless=""><a href="{{ audio.url  }}" {{ audio.titre  }}</a></iframe>
-    -->
-  </div>
+  <div class="content__audio"data-reference="{{ audio.reference }}" data-url="{{ audio.url }}" data-titre="{{ audio.titre }}"></div>
   {% endfor %}
 </article>
 <!-- /CONTENT AUDIO -->

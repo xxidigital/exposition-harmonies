@@ -2,24 +2,73 @@
 <section class="side" id="baseline">
     <!-- BASELINE__CONTAINER -->
     <div class="baseline__container">
+      {% for chapter in site.exposition %}
+        {% if chapter.title == page.title %}
+          {% assign currentPost = forloop.index %}
+          {% assign thisPost = chapter %}
+          {% if forloop.index == 1 %}
+            {% assign prevflag = 0 %}
+            {% assign nextflag = 1 %}
+          {% elsif forloop.index == forloop.length %}
+            {% assign prevflag = 1 %}
+            {% assign nextflag = 0 %}
+          {% else %}
+            {% assign prevflag = 1 %}
+            {% assign nextflag = 1 %}
+          {% endif %}
+        {% endif %}
+        {% endfor %}
+
+        {% for chapter in site.exposition %}
+          {% if chapter.title == page.title %}
+            {% assign prevflag = 0 %}
+          {% endif %}
+          {% if prevflag == 1 %}
+            {% assign prevPost = chapter %}
+            {% assign page.previous = chapter %}
+          {% endif %}
+        {% endfor %}
+
+        {% if nextflag == 1 %}
+          {% for chapter in site.exposition %}
+            {% if foundPost == 1 %}
+              {% assign getNext = 1 %}
+            {% endif %}
+            {% if chapter.title == page.title %}
+              {% assign foundPost = 1 %}
+            {% endif %}
+            {% if getNext == 1%}
+              {% assign nextPost = chapter %}
+              {% assign page.next = chapter %}
+              {% assign foundPost = 0 %}
+              {% assign getNext = 0 %}
+            {% endif %}
+          {% endfor %}
+        {% endif %}
 
       <!-- PAGINATION -->
       <nav class="pagination">
+
+
         <ul class="pagination__list">
           <li class="pagination__label">page</li>
-          <li class="pagination__number"><span class="button button--pagination">2</span></li>
+          <li class="pagination__number"><span class="button button--pagination">{{ currentPost }}</span></li>
+          {% if prevPost.url %}
           <li class="pagination__item">
-            <a href="#" class="button button--pagination" title="page précédente">
+            <a href="{{prevPost.url}}" class="button button--pagination" title="page {{ prevPost.title }}">
               <span class="ghost">page précédente</span>
               <span data-inject="vector" data-file="icon--top" class="icon"></span>
             </a>
           </li>
+          {% endif %}
+          {% if nextPost.url %}
           <li class="pagination__item">
-            <a href="#" class="button button--pagination" title="page suivante">
+            <a href="{{nextPost.url}}" class="button button--pagination" title="page {{ nextPost.title }}">
               <span class="ghost">page suivante</span>
               <span data-inject="vector" data-file="icon--bottom" class="icon"></span>
             </a>
           </li>
+          {% endif %}
         </ul>
       </nav>
       <!-- /PAGINATION -->
