@@ -5,7 +5,7 @@ collections:
   exposition:
     title: Exposition
     output: true
-    permalink: /:collection/:title.html
+    permalink: "/:collection/:title.html"
   posts:
     title: Posts
     output: true
@@ -35,7 +35,6 @@ defaults:
       url: 
       titre: 
     layout: exposition
-# env: production
 host: localhost
 port: 8000
 process: 3003
