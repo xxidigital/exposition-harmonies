@@ -1,4 +1,5 @@
-.content h1, .content h3 {
+.content h1,
+.content h3 {
     margin-top: 2em;
 }
 
@@ -10,26 +11,22 @@
 }
 
 .content .content__video__title {
-  font-size: 1em;
-  line-height: 1;
-  margin: .6em 0 0;
+    font-size: 1em;
+    line-height: 1;
+    margin: 0.6em 0 0;
 }
 
 .content .content__time {
-  font-size: .815em;
-  margin: 0;
-  font-style: italic;
-}
-
-.content__audio {
-
+    font-size: 0.815em;
+    margin: 0;
+    font-style: italic;
 }
 
 .frame--audio {
-  border: 0;
-  width: 100%;
-  max-width: calc(94vw - 6em);
-  height: calc(90vh - 5em - 9rem);
+    border: 0;
+    width: 100%;
+    max-width: calc(94vw - 6em);
+    height: calc(90vh - 5em - 9rem);
 }
 
 .content__cmd {
@@ -38,5 +35,5 @@
 }
 
 .content__cmd:hover {
-  background: $noir;
+    background: $noir;
 }

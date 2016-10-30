@@ -1,10 +1,51 @@
-#menu {
-    padding: 2.5em 3em 1.5em;
-    transform: rotateY(180deg);
-    background: $noir;
-    color: white;
+.menu {
+    margin-bottom: 3em;
+}
+
+.menu__list {
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }
 
 .menu__item {
     list-style: none;
+    border-bottom: 1px solid white;
+    line-height: 1.2;
+}
+
+.menu__link {
+    transition: all 400ms;
+    position: relative;
+    display: inline-block;
+    font-size: 1.5em;
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    padding: 0.5rem 0 0.5rem 3.5rem;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.menu__link * {
+    transition: all 400ms;
+}
+
+.menu__link:hover {
+    color: $hover;
+}
+
+.menu__number {
+    position: absolute;
+    display: inline-block;
+    width: 2.5rem;
+    margin: 0.4rem 0;
+    height: calc(100% - 1.5rem);
+    border-right: 1px solid white;
+    top: 0.3rem;
+    left: 0;
+}
+
+.menu__link:hover .menu__number {
+    border-right-color: $hover;
 }

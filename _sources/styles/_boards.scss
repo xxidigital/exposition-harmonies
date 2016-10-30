@@ -9,7 +9,9 @@
     transform: rotateX(-180deg);
 }
 
-.board, #mainboard.state--reverse #frontboard, #mainboard.state--flipfen #frontboard {
+#mainboard.state--flip #frontboard,
+#mainboard.state--reverse #frontboard,
+.board {
     transition: visibility 600ms, opacity 600ms, z-index 600ms ease-in-out;
     visibility: hidden;
     opacity: 0;
@@ -20,40 +22,69 @@
     visibility: visible;
     z-index: 20;
     opacity: 1;
+    max-height: inherit;
+    overflow: inherit;
 }
 
 #mainboard.state--flip {
     transform: rotateY(180deg);
 }
 
-#mainboard.state--flip #menu {
+#mainboard.state--flip #frontboard,
+#mainboard.state--reverse #frontboard {
+    margin-bottom: 0;
+    max-height: 0;
+    overflow: hidden;
+}
+
+#mainboard.state--flip #menuboard {
     visibility: visible;
     z-index: 20;
     opacity: 1;
+    max-height: inherit;
+    overflow: inherit;
 }
 
 .board {
     background-color: green;
     position: absolute;
     backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
     width: 94vw;
     min-height: 85vh;
-    height: auto;
-    margin-bottom: 3em;
     box-shadow: -5px 5px 5px rgba(0, 0, 0, .3);
     background: white;
     color: $noir;
+    max-height: 0;
+    overflow: hidden;
+}
+
+.board:after {
+  position: absolute;
+  content: "";
+  bottom: -5vh;
+  height: 5vh;
+  width: 240px;
 }
 
 #frontboard {
-    overflow: hidden;
     visibility: visible;
     z-index: 5;
     opacity: 1;
+    height: auto;
+    max-height: inherit;
+    overflow: inherit;
 }
 
 #backboard {
-    padding: 2.5em 3em 1.5em;
+    padding: 2.5em 1.5em 1.5em;
     transform: rotateX(-180deg);
-    bottom: -3em;
+    bottom: 0;
+}
+
+#menuboard {
+    padding: 6.5em 3em 3em;
+    transform: rotateY(180deg);
+    background: $noir;
+    color: white;
 }

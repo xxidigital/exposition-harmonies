@@ -1,5 +1,9 @@
-.gallery__figure .icon,
-.content__cmd .icon {
+.gallery {
+  padding-left: 0;
+}
+
+.content__cmd .icon,
+.gallery__figure .icon {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -10,28 +14,28 @@
 }
 
 .gallery__figure .icon {
-  margin-top: -1rem;
+    margin-top: -1rem;
 }
 
-.gallery__figure .icon svg,
-.content__cmd svg {
+.content__cmd svg,
+.gallery__figure .icon svg {
     width: 100%;
     height: 100%;
 }
 
-.gallery__figure .icon svg *,
-.content__cmd svg * {
+.content__cmd svg *,
+.gallery__figure .icon svg * {
     transition: fill 700ms;
     fill: $noir;
 }
 
-.gallery__figure:hover img,
-.content__cmd:hover img {
-    opacity: .1;
+.content__cmd:hover img,
+.gallery__figure:hover img {
+    opacity: 0.1;
 }
 
-.gallery__figure:hover .icon svg *,
-.content__cmd:hover svg * {
+.content__cmd:hover svg *,
+.gallery__figure:hover .icon svg * {
     fill: $hover;
 }
 
@@ -41,16 +45,16 @@
 }
 
 .gallery__item {
-  list-style: none;
-  display: inline-flex;
+    list-style: none;
+    display: inline-flex;
 }
 
 .gallery__figure {
-  transition: all 700ms;
+    transition: all 700ms;
     position: relative;
     display: inline-block;
-    width: 14.5vw;
-    height: 14.5vw;
+    width: 78vw;
+    height: 78vw;
     margin: 1vw;
     border-radius: 999em;
     background-position: top center;
@@ -60,12 +64,12 @@
 }
 
 .gallery__figure:hover {
-  background-color: $noir;
+    background-color: $noir;
 }
 
 .gallery__figure img {
-  width: auto;
-  height: 104%;
-  display: block;
-  margin: -2% -13%;
+    width: auto;
+    height: 104%;
+    display: block;
+    margin: -2% -13%;
 }
