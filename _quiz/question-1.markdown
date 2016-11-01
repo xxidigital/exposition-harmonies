@@ -1,7 +1,7 @@
 ---
 title: Question 1
-reponse: 2
-choix:
+solution: 2
+reponses:
 - label: la poule
 - label: l'oeuf
 ---

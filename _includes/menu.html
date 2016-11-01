@@ -15,6 +15,9 @@
               <a href="{{ chapter.url }}" class="menu__link" title="{{ chapter.title }}">{% assign nombre = forloop.index %}{% if forloop.index < 10 %}{% assign nombre = nombre | prepend: '0' %}{% endif %}<span class="menu__number">{{ nombre }}</span>{{ chapter.title }}</a>
           </li>
           {% endfor %}
+          <li class="menu__item">
+            <a href="/quiz-jouons-ensemble/" class="menu__link">{% assign nombre = nombre | plus: 1 %}<span class="menu__number">{{ nombre }}</span> Quiz ! Jouons ensemble</a>
+          </li>
       </ul>
   </nav>
   <!-- /MENU -->
@@ -23,7 +26,7 @@
     <h2 class="head__title"><a href="{{ site.url }}">
       <span class="ghost">{{ site.title }}</span>
       <span data-inject="vector" data-file="logotype" class="icon head__logo head__logo--negative"></span>
-      <span data-inject="vector" data-file="deco--line" class="icon head__deco head__deco--negative"></span>
+      <span data-inject="vector" data-file="ornament" class="icon head__ornament head__ornament--negative"></span>
     </a></h2>
     <p class="head__subtitle head__subtitle--negative">patrimoine de la ville de commentry</p>
     <p class="head__infos">Espace culturel de la pléiade<br>26 novembre 2016 au 26 août 2017</p>

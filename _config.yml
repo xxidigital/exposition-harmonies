@@ -39,7 +39,7 @@ defaults:
       url:
       titre:
     layout: exposition
-  - scope:
+- scope:
     path: quiz
     type: quiz
   values:

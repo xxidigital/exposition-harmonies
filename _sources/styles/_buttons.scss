@@ -10,6 +10,7 @@
     background-color: white;
     border-radius: 999em;
     vertical-align: middle;
+    outline: none;
 }
 
 a.button {
@@ -22,9 +23,9 @@ a.button {
 }
 
 .button .icon {
-    text-align: center;
-    min-height: 2rem;
-    max-height: 3vw;
+  text-align: center;
+  min-height: 2rem;
+  max-height: 3vw;
 }
 
 .button .icon svg {
@@ -77,4 +78,24 @@ a.button:hover {
 
 .button--pagination {
     background-color: $noir;
+}
+
+.button--quiz {
+  transition: all 400ms;
+  background: $noir;
+  border: none;
+  color: white;
+  padding: 1rem 1.2rem;
+  font-size: 1em;
+  font-weight: 400;
+  text-transform: capitalize;
+  cursor: pointer;
+  outline: none;
+  display: block;
+  margin: 2em 0 1em;
+}
+
+.button--quiz:hover {
+  background: $hover;
+  color: $noir;
 }

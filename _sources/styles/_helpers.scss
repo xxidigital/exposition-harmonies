@@ -8,3 +8,26 @@
 .ghost {
     display: none;
 }
+
+.state--active {
+  cursor: default;
+}
+
+.disc {
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 999em;
+  background-color: #cdcdcd;
+  border: 1px solid $clair;
+}
+
+a:hover:not(.state--active) .disc {
+  background-color: $hover;
+  border-color: $hover;
+}
+
+.state--active .disc {
+  background-color: $noir;
+  border-color: $noir;
+}

@@ -48,8 +48,6 @@
 
       <!-- PAGINATION -->
       <nav class="pagination">
-
-
         <ul class="pagination__list">
           <li class="pagination__label">page</li>
           <li class="pagination__number"><span class="button button--pagination">{{ currentPost }}</span></li>
@@ -63,7 +61,15 @@
           {% endif %}
           {% if nextPost.url %}
           <li class="pagination__item">
-            <a href="{{nextPost.url}}" class="button button--pagination" title="page {{ nextPost.title }}">
+            <a href="{{nextPost.url}}" class="button button--pagination" title="page : {{ nextPost.title }}">
+              <span class="ghost">page suivante</span>
+              <span data-inject="vector" data-file="icon--bottom" class="icon"></span>
+            </a>
+          </li>
+          {% endif %}
+          {% if forloop.index == forloop.length %}
+          <li class="pagination__item">
+            <a href="/quiz-jouons-ensemble/" class="button button--pagination" title="page : Quiz ! Jouons ensemble">
               <span class="ghost">page suivante</span>
               <span data-inject="vector" data-file="icon--bottom" class="icon"></span>
             </a>
@@ -83,7 +89,7 @@
         <!-- baseline__title -->
         <h3 class="baseline__title">
           <span class="ghost">Histoires d'harmonies</span>
-          <span data-inject="vector" data-file="logotype" class="logotype"></span>
+          <span data-inject="vector" data-file="logotype" class="logotype logotype--baseline"></span>
         </h3>
         <!-- /BASELINE__TITLE -->
         <h4 class="baseline__subtitle">Ville de Commentry</h4>

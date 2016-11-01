@@ -18,21 +18,21 @@
     width: 100%;
 }
 
-.head__deco {
+.head__ornament {
     margin-top: 0.4vh;
 }
 
-.head__deco svg {
-    width: 11rem;
+.head__ornament svg {
+    width: 10rem;
     height: auto;
 }
 
-.head__deco svg *,
+.head__ornament svg *,
 .head__logo svg * {
     fill: $noir;
 }
 
-.head__deco--negative svg *,
+.head__ornament--negative svg *,
 .head__logo--negative svg * {
     fill: white;
 }
@@ -54,28 +54,18 @@
     color: $hover;
 }
 
-.logotype {
-    display: inline-block;
-    width: 50vw;
+.headline__title {
+    margin: 1em 0 0;
 }
 
-.logotype--negative {
-    position: absolute;
-    display: block;
-    top: 1rem;
-    right: 3rem;
-    width: 7rem;
+.headline__dates {
+    color: $clair;
+    margin: 0.5em 0 0;
 }
 
-.logotype svg,
-.logotype--negative svg {
+.headline__image {
     width: 100%;
-}
-
-.logotype svg * {
-    fill: $hover;
-}
-
-.logotype--negative svg * {
-    fill: $noir;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
 }

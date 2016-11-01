@@ -1,0 +1,119 @@
+{% include header.html %}
+
+<!-- MAIN -->
+<main id="main">
+
+  <!-- MAINBOARD -->
+    <div id="mainboard">
+
+      <!-- BOARD -->
+        <section id="frontboard" class="board">
+
+          <!-- WRAPPER -->
+          <div class="wrapper">
+            <div class="pad">
+              <header class="headline__header">
+                <h1 class="headline__title">{{page.title}}</h1>
+              </header>
+
+              <section class="side side--full quiz" data-total="{{ site.quiz | size }}">
+                <div class="holder">
+                  {% assign nombre = 0 %}
+                  {% for etape in site.quiz %}
+                  <article class="quiz__article" data-solution="{{ etape.solution }}" data-id="{{ nombre }}">
+                    {% assign nombre = nombre | plus: 1 %}
+                    <p class="quiz__question">{{ etape.content | strip_html }}</p>
+                    {% assign chiffre = 0 %}
+                    {% for reponse in etape.reponses %}
+                    {% assign chiffre = chiffre | plus: 1 %}
+                    <input class="field field--quiz" type="radio" name="question_{{ nombre }}" id="question__{{nombre}}--{{ chiffre }}" value="{{ chiffre }}" /><label for="question__{{nombre}}--{{ chiffre }}" class="label label--quiz">{{ reponse.label }}</label>
+                    {% endfor %}
+                    <button class="button--quiz" type="button" name="button">Valider</button>
+                  </article>
+                  {% endfor %}
+                  <article class="quiz__result">
+                    <div id="quiz_victory" class="ghost">
+                      <h2>Félicitation !</h2>
+                      {{ content }}
+                    </div>
+                    <div id="quiz_defeat" class="ghost">
+                      <h2>Patatra !</h2>
+                      {{ page.message}}
+                      <button id="quiz--return" type="button" class="button--quiz" name="button">Retour</button>
+                  </div>
+                  </article>
+                </div>
+              </section>
+            </div>
+
+            <div class="quiz__nav">
+              <ul class="quiz__nav__list">
+                {% for etape in site.quiz %}
+                <li class="quiz__nav__item">
+                  <a href="#" id="quiz__step--{{ forloop.index }}" class="quiz__nav__link {% if forloop.index == 1 %}state--active{% endif %}" data-id="{{ forloop.index }}">
+                    <span class="ghost">{{ etape.title }}</span>
+                    <span class="disc"></span>
+                  </a>
+                </li>
+                {% endfor %}
+              </ul>
+            </div>
+
+            <!-- BASELINE -->
+            <section class="side" id="baseline">
+                <!-- BASELINE__CONTAINER -->
+                <div class="baseline__container">
+                {% assign total = site.exposition | size | plus: 1%}
+                {% assign dernier = site.exposition.last %}
+
+                  <!-- PAGINATION -->
+                  <nav class="pagination">
+                    <ul class="pagination__list">
+                      <li class="pagination__label">page</li>
+                      <li class="pagination__number"><span class="button button--pagination">{{ total }}</span></li>
+                      <li class="pagination__item">
+                        <a href="{{ dernier.url }}" class="button button--pagination" title="page : {{ dernier.title }}">
+                          <span class="ghost">page précédente</span>
+                          <span data-inject="vector" data-file="icon--top" class="icon"></span>
+                        </a>
+                      </li>
+                    </ul>
+                  </nav>
+                  <!-- /PAGINATION -->
+
+                </div>
+                <!-- /BASELINE__CONTAINER -->
+
+                <!-- BASELINE__CONTAINER -->
+                <div class="baseline__container">
+                  <!-- BASELINE__BLOCK -->
+                  <div class="baseline__block">
+                    <!-- baseline__title -->
+                    <h3 class="baseline__title">
+                      <span class="ghost">Histoires d'harmonies</span>
+                      <span data-inject="vector" data-file="logotype" class="logotype logotype--baseline"></span>
+                    </h3>
+                    <!-- /BASELINE__TITLE -->
+                    <h4 class="baseline__subtitle">Ville de Commentry</h4>
+                  </div>
+                  <!-- /BASELINE__BLOCK -->
+                </div>
+                <!-- /BASELINE__CONTAINER -->
+            </section>
+            <!-- /BASELINE -->
+
+          </div>
+          <!-- /WRAPPER -->
+
+        </section>
+        <!-- /BOARD -->
+
+        {% include menu.html %}
+
+      </div>
+      <!-- /MAINBOARD  -->
+
+  </main>
+  <!-- /MAIN -->
+
+{% include footer.html %}

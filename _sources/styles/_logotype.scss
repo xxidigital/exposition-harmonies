@@ -1,0 +1,30 @@
+.logotype {
+    display: inline-block;
+    width: 50vw;
+}
+
+.logotype--baseline {
+  width: 14vw;
+}
+
+.logotype--negative {
+    position: absolute;
+    display: block;
+    top: 1rem;
+    right: 3rem;
+    width: 7rem;
+}
+
+.logotype svg,
+.logotype--negative svg {
+    width: 100%;
+    height: auto;
+}
+
+.logotype svg * {
+    fill: $hover;
+}
+
+.logotype--negative svg * {
+    fill: $noir;
+}

@@ -1,6 +1,7 @@
 require('./hotloaders.js');
 require('./frames.zepto.js');
 require('./controls.js');
+require('./quiz.js');
 
 (function() {
     "use strict"
