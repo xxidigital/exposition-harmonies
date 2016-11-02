@@ -1,0 +1,75 @@
+<!-- BOARD -->
+  <section id="frontboard" class="board">
+    <!-- WRAPPER -->
+    <div class="wrapper">
+      <!-- LEFTSIDE -->
+      <div id="leftside" class="side">
+        <a href="#mainboard" class="cmd--flip button button--negative button--menu" id="btn--show">
+          <span data-inject="vector" data-file="icon--menu" class="icon"></span>
+          <span class="ghost">Menu</span>
+        </a>
+        {% if page.headline-image %}
+        <figure class="headline__image" style="background-image:url('{{page.headline-image}}')"></figure>
+        {% endif %}
+      </div>
+      <!-- /LEFTSIDE -->
+      <!-- RIGHTSIDE -->
+        <div id="rightside" class="side">
+          <!-- INLINE NAV -->
+          <nav class="nav">
+            <ul class="nav__list">
+              {% if page.content %}
+              <li class="nav__item">
+                <a href="#mainboard" data-target="#content--text" class="cmd--reverse button nav__link" id="btn--open">
+                  <span data-inject="vector" data-file="icon--text" class="icon"></span>
+                  <span class="ghost">Texte</span>
+                </a>
+              </li>
+              {% endif %}
+              {% if page.galerie-images %}
+              <li class="nav__item">
+                <a href="#mainboard" data-target="#content--gallery" class="cmd--reverse button nav__link" id="btn--open">
+                  <span data-inject="vector" data-file="icon--gallery" class="icon"></span>
+                  <span class="ghost">Galerie</span>
+                </a>
+              </li>
+              {% endif %}
+              {% if page.videos  %}
+              <li class="nav__item">
+                <a href="#mainboard" data-target="#content--video" class="cmd--reverse button nav__link" id="btn--open">
+                  <span data-inject="vector" data-file="icon--tv" class="icon"></span>
+                  <span class="ghost">Videos</span>
+                </a>
+              </li>
+              {% endif %}
+              {% if page.audio %}
+              <li class="nav__item">
+                <a href="#mainboard" data-target="#content--audio" class="cmd--reverse button nav__link" id="btn--open">
+                  <span data-inject="vector" data-file="icon--audio" class="icon"></span>
+                  <span class="ghost">Audio</span>
+                </a>
+              </li>
+              {% endif %}
+            </ul>
+          </nav>
+          <!-- /INLINE NAV -->
+          <!-- ARTICLE -->
+          <article class="headline">
+            <header class="headline__header">
+              <h1 class="headline__title">{{page.title}}</h1>
+              {% if page.dates %}
+              <p class="headline__dates">{ {{page.dates}} }</p>
+              {% endif %}
+            </header>
+            <div class="headline__excerpt">
+              <p>{{ page.content | strip_html | truncatewords: 90 }}</p>
+            </div>
+          </article>
+          <!-- /ARTICLE -->
+        </div>
+        <!-- /RIGHTSIDE -->
+        {% include baseline.html %}
+      </div>
+      <!-- /WRAPPER -->
+    </section>
+    <!-- /BOARD -->

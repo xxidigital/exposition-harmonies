@@ -1,24 +1,12 @@
 {% include header.html %}
-<body>
-<header>
-    <h1><a href="{{site.url}}" title="{{page.title}}">{{page.title}}</a></h1>
-</header>
-<main>
-<article class="post">
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title | escape }}</h1>
-  </header>
-
-  <div class="post-content">
-    {{ content }}
-  </div>
-  <section class="galerie">
-      {% for image in page.images %}
-        <img src="{{image}}" alt="" />
-      {% endfor %}
-  </section>
-
-</article>
+<!-- MAIN -->
+<main id="main">
+  <!-- MAINBOARD -->
+    <div id="mainboard">
+      {% include board-page.html %}
+      {% include board-menu.html %}
+    </div>
+    <!-- /MAINBOARD  -->
 </main>
-
+<!-- /MAIN -->
 {% include footer.html %}

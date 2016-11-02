@@ -1,0 +1,60 @@
+<!-- BOARD -->
+<section id="quizboard" class="board">
+    <a href="#mainboard" class="cmd--flip button button--negative button--menu" id="btn--show">
+        <span data-inject="vector" data-file="icon--menu" class="icon"></span>
+        <span class="ghost">Menu</span>
+    </a>
+    <!-- WRAPPER -->
+    <div class="wrapper">
+        <div class="pad">
+            <header class="headline__header">
+                <h1 class="headline__title">{{page.title}}</h1>
+            </header>
+            <!-- QUIZ -->
+            <section class="side side--full quiz" data-total="{{ site.quiz | size }}">
+                <div class="holder">
+                    {% assign nombre = 0 %}
+                    {% for etape in site.quiz %}
+                    <article class="quiz__article" data-solution="{{ etape.solution }}" data-id="{{ nombre }}">
+                        {% assign nombre = nombre | plus: 1 %}
+                        <p class="quiz__question">{{ etape.content | strip_html }}</p>
+                        {% assign chiffre = 0 %}
+                        {% for reponse in etape.reponses %}
+                        {% assign chiffre = chiffre | plus: 1 %}
+                        <input class="field field--quiz" type="radio" name="question_{{ nombre }}" id="question__{{nombre}}--{{ chiffre }}" value="{{ chiffre }}" /><label for="question__{{nombre}}--{{ chiffre }}" class="label label--quiz">{{ reponse.label }}</label>
+                        {% endfor %}
+                        <button class="button--quiz" type="button" name="button">Valider</button>
+                    </article>
+                    {% endfor %}
+                    <article class="quiz__result">
+                        <div id="quiz_victory" class="ghost">
+                            <h2>Félicitation !</h2> {{ content }}
+                        </div>
+                        <div id="quiz_defeat" class="ghost">
+                            <h2>Patatra !</h2> {{ page.message}}
+                            <button id="quiz--return" type="button" class="button--quiz" name="button">Retour</button>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </div>
+        <!-- /QUIZ -->
+        <!-- QUIZ-NAV -->
+        <div class="quiz__nav">
+            <ul class="quiz__nav__list">
+                {% for etape in site.quiz %}
+                <li class="quiz__nav__item">
+                    <a href="#" id="quiz__step--{{ forloop.index }}" class="quiz__nav__link {% if forloop.index == 1 %}state--active{% endif %}" data-id="{{ forloop.index }}">
+                        <span class="ghost">{{ etape.title }}</span>
+                        <span class="disc"></span>
+                    </a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+        <!-- /QUIZ-NAV -->
+        {% include baseline-quiz.html %}
+    </div>
+    <!-- /WRAPPER -->
+</section>
+<!-- /BOARD -->

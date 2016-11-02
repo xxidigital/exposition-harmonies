@@ -1,0 +1,20 @@
+<!-- BOARD -->
+<section id="quizboard" class="board">
+  <a href="#mainboard" class="cmd--flip button button--negative button--menu" id="btn--show">
+    <span data-inject="vector" data-file="icon--menu" class="icon"></span>
+    <span class="ghost">Menu</span>
+  </a>
+  <!-- WRAPPER -->
+  <div class="wrapper">
+    <div class="pad">
+      <header class="headline__header">
+        <h1 class="headline__title">{{page.title}}</h1>
+      </header>
+      <section class="side side--full quiz" data-total="{{ site.quiz | size }}">
+        {{ content }}
+      </section>
+    </div>
+  </div>
+  <!-- /WRAPPER -->
+</section>
+<!-- /BOARD -->

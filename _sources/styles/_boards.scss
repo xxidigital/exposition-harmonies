@@ -11,6 +11,7 @@
 
 #mainboard.state--flip #homeboard,
 #mainboard.state--flip #frontboard,
+#mainboard.state--flip #quizboard,
 #mainboard.state--reverse #frontboard,
 .board {
     transition: visibility 600ms, opacity 600ms, z-index 600ms ease-in-out;
@@ -33,6 +34,7 @@
 
 #mainboard.state--flip #homeboard,
 #mainboard.state--flip #frontboard,
+#mainboard.state--flip #quizboard,
 #mainboard.state--reverse #frontboard {
     margin-bottom: 0;
     max-height: 0;
@@ -74,7 +76,8 @@
 }
 
 #homeboard,
-#frontboard {
+#frontboard,
+#quizboard {
     visibility: visible;
     z-index: 5;
     opacity: 1;

@@ -1,0 +1,24 @@
+<!-- BOARD -->
+<section id="backboard" class="board">
+  <a href="#mainboard" class="cmd--reverse button button--close" id="btn--close" title="Masquer la fenêtre">
+    <span class="ghost">Masquer</span>
+    <span data-inject="vector" data-file="icon--close" class="icon"></span>
+  </a>
+  <span data-inject="vector" data-file="logotype" class="logotype--negative"></span>
+  <!-- CONTENT--TEXT -->
+  <article class="content" id="content--text">
+    <h1>{{page.title}}</h1>
+    {{content}}
+    </article>
+    <!-- /CONTENT--TEXT -->
+    {% if page.galerie-images %}
+    {% include  medias-galerie.html %}
+    {% endif %}
+    {% if page.videos %}
+    {% include medias-videos.html %}
+    {% endif %}
+    {% if page.audio %}
+    {% include medias-audio.html %}
+    {% endif %}
+</section>
+<!-- /BOARD -->

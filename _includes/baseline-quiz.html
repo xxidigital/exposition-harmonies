@@ -1,0 +1,39 @@
+<!-- BASELINE -->
+<section class="side" id="baseline">
+  <!-- BASELINE__CONTAINER -->
+  <div class="baseline__container">
+      {% assign total = site.exposition | size | plus: 1%}
+      {% assign dernier = site.exposition.last %}
+      <!-- PAGINATION -->
+      <nav class="pagination">
+          <ul class="pagination__list">
+              <li class="pagination__label">page</li>
+              <li class="pagination__number"><span class="button button--pagination">{{ total }}</span></li>
+              <li class="pagination__item">
+                  <a href="{{ dernier.url }}" class="button button--pagination" title="page : {{ dernier.title }}">
+                      <span class="ghost">page précédente</span>
+                      <span data-inject="vector" data-file="icon--top" class="icon"></span>
+                  </a>
+              </li>
+          </ul>
+      </nav>
+      <!-- /PAGINATION -->
+  </div>
+  <!-- /BASELINE__CONTAINER -->
+  <!-- BASELINE__CONTAINER -->
+  <div class="baseline__container">
+      <!-- BASELINE__BLOCK -->
+      <div class="baseline__block">
+          <!-- baseline__title -->
+          <h3 class="baseline__title">
+      <span class="ghost">Histoires d'harmonies</span>
+      <span data-inject="vector" data-file="logotype" class="logotype logotype--baseline"></span>
+    </h3>
+          <!-- /BASELINE__TITLE -->
+          <h4 class="baseline__subtitle">Ville de Commentry</h4>
+      </div>
+      <!-- /BASELINE__BLOCK -->
+  </div>
+  <!-- /BASELINE__CONTAINER -->
+</section>
+<!-- /BASELINE -->
