@@ -15,6 +15,18 @@
   text-align: center;
 }
 
-.confetti {
+.confettis {
+  position: absolute;
+  width: 94vw;
+  max-height: 85vh;
+  overflow: hidden;
+  right: 0;
+  top: 0;
+  z-index: 2;
+  text-align: right;
+}
 
+.confettis svg {
+  max-width: 100%;
+  height: auto;
 }

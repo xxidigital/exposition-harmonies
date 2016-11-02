@@ -7,6 +7,6 @@ require('./quiz.js');
     "use strict"
     // Document ready
     document.addEventListener('DOMContentLoaded', function() {
-        console.log('scripts chargés');
+        //console.log('scripts chargés');
     }); // Document.ready
 }());
