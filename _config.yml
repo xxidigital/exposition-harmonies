@@ -10,18 +10,7 @@ collections:
     title: Quiz
     output: true
     permalink: "/:collection/:title"
-  posts:
-    title: Posts
-    output: true
-  uploads:
-    title: Uploads
-    output: true
 defaults:
-- scope:
-    path: ''
-    type: posts
-  values:
-    layout: post
 - scope:
     path: exposition
     type: exposition

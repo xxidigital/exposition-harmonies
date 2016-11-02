@@ -9,6 +9,7 @@
     transform: rotateX(-180deg);
 }
 
+#mainboard.state--flip #homeboard,
 #mainboard.state--flip #frontboard,
 #mainboard.state--reverse #frontboard,
 .board {
@@ -30,6 +31,7 @@
     transform: rotateY(180deg);
 }
 
+#mainboard.state--flip #homeboard,
 #mainboard.state--flip #frontboard,
 #mainboard.state--reverse #frontboard {
     margin-bottom: 0;
@@ -71,6 +73,7 @@
   padding: 2.5em 1.5em 1.5em;
 }
 
+#homeboard,
 #frontboard {
     visibility: visible;
     z-index: 5;
@@ -80,6 +83,11 @@
     overflow: inherit;
 }
 
+#homeboard,
+#menuboard {
+  padding: 6.5em 3em 3em;
+}
+
 #backboard {
     padding: 2.5em 1.5em 1.5em;
     transform: rotateX(-180deg);
@@ -87,7 +95,6 @@
 }
 
 #menuboard {
-    padding: 6.5em 3em 3em;
     transform: rotateY(180deg);
     background: $noir;
     color: white;

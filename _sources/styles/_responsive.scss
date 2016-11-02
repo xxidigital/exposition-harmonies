@@ -41,6 +41,15 @@
         padding: 0 0 0 3em;
     }
 
+    .image--home {
+      position: absolute;
+      display: block;
+      width: 47vw;
+      left: 3rem;
+      bottom: 3rem;
+      z-index: 1;
+    }
+
     .headline__excerpt {
         overflow-y: hidden;
         max-height: 29vh;
