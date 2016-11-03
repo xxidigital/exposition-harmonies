@@ -8,7 +8,7 @@
     "build": "rimraf assets && webpack --config _process/webpack.prod.js && rimraf _site && JEKYLL_ENV=production jekyll build",
     "front": "node _process/server.js",
     "dev": "concurrently \"node _process/server.js\" \"bundle exec jekyll serve\" --kill-others",
-    "gh": "npm run build && gh-pages -d dist"
+    "deploy": "npm run build && gh-pages -d _site"
   },
   "author": "Rodolphe MICHARD <rodolphemichard@gmail.com>",
   "license": "MIT",
