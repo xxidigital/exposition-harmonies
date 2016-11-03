@@ -14,7 +14,7 @@
 <script>
       (function(){function e(e){var t=document.createElement("style");
       t.textContent=e;t.rel="stylesheet";document.head.appendChild(t)}var t="expo_harmonies";
-      try{if(localStorage[t]){e(localStorage[t])}else{var n=new XMLHttpRequest;var p=window.location.pathname.replace(/[^\/]*$/,'');
+      try{if(localStorage[t]){e(localStorage[t])}else{var n=new XMLHttpRequest;var p='';
       if(window.location.host!==""){var h=window.location.protocol+"//"+window.location.host+p}else{var h=window.location.protocol+'//'+p}n.open("GET",h+'{{site.data.assets.types.css | relative_url }}',true);n.onload=function(){if(n.status>=200&&n.status<400){
       localStorage[t]=n.responseText;e(n.responseText)}};n.send()}}catch(r){console.log(r)}})();
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
