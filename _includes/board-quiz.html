@@ -17,6 +17,11 @@
                     {% for etape in site.quiz %}
                     <article class="quiz__article" data-solution="{{ etape.solution }}" data-id="{{ nombre }}">
                         {% assign nombre = nombre | plus: 1 %}
+                        {% if etape.file %}
+                        <audio controls="controls">
+                          <source src="{{ etape.file | relative_url }}" type='audio/mpeg; codecs="mp3"'>
+                          </audio>
+                          {% endif %}
                         <p class="quiz__question">{{ etape.content | strip_html }}</p>
                         {% assign chiffre = 0 %}
                         {% for reponse in etape.reponses %}

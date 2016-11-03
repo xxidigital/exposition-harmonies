@@ -1,9 +1,10 @@
 ---
 title: Question 1
 solution: 2
+file: 'uploads/trumpet.mp3'
 reponses:
-- label: la poule
-- label: l'oeuf
+- label: le saxophone
+- label: la trompette
 ---
 
-Qu'est-ce qui est arrivé en premier ?
+Quel est l'instrument écouté dans l'extrait ?
