@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "https://xxidigital.github.io/exposition-harmonies/"
+    versionCode = "1"
+    version     = "1.0.0" >
+
+  <name>Histoire d'harmonies</name>
+
+  <description>
+      Application pour l'exposition "Histoire d'harmonies"
+  </description>
+
+  <author href="http://www.xxicommunication.fr/" email="jcf@xxicommunication.fr">
+      Rodolphe MICHARD
+  </author>
+
+  <preference name="phonegap-version" value="cli-6.3.0" />
+  <preference name="orientation" value="landscape" />
+  <preference name="fullscreen" value="true" />
+</widget>
