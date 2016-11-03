@@ -6,4 +6,5 @@ reponses:
 - label: rose
 - label: jaune
 ---
+
 De quelle couleur est la voiture jaune de Oui-Oui ?

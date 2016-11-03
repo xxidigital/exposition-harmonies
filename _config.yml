@@ -6,6 +6,9 @@ collections:
     title: Exposition
     output: true
     permalink: "/:collection/:title.html"
+  posts:
+    title: Posts
+    output: true
   quiz:
     title: Quiz
     output: true
