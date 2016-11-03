@@ -1,7 +1,7 @@
 ---
 title: Question 1
 solution: 2
-file: 'uploads/trumpet.mp3'
+file: uploads/trumpet.mp3
 reponses:
 - label: le saxophone
 - label: la trompette
