@@ -13,11 +13,11 @@
       <ul class="menu__list">
           {% for chapter in site.exposition %}
           <li class="menu__item">
-              <a href="{{ chapter.url }}" class="menu__link" title="{{ chapter.title }}">{% assign nombre = forloop.index %}{% if forloop.index < 10 %}{% assign nombre = nombre | prepend: '0' %}{% endif %}<span class="menu__number">{{ nombre }}</span>{{ chapter.title }}</a>
+              <a href="{{ chapter.url | relative_url }}" class="menu__link" title="{{ chapter.title }}">{% assign nombre = forloop.index %}{% if forloop.index < 10 %}{% assign nombre = nombre | prepend: '0' %}{% endif %}<span class="menu__number">{{ nombre }}</span>{{ chapter.title }}</a>
           </li>
           {% endfor %}
           <li class="menu__item">
-            <a href="/quiz-jouons-ensemble/" class="menu__link">{% assign nombre = nombre | plus: 1 %}<span class="menu__number">{{ nombre }}</span> Quiz ! Jouons ensemble</a>
+            <a href="{{ '/quiz-jouons-ensemble/' | relative_url }}" class="menu__link">{% assign nombre = nombre | plus: 1 %}<span class="menu__number">{{ nombre }}</span> Quiz ! Jouons ensemble</a>
           </li>
       </ul>
   </nav>

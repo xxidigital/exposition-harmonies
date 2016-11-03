@@ -53,7 +53,7 @@
           <li class="pagination__number"><span class="button button--pagination">{{ currentPost }}</span></li>
           {% if prevPost.url %}
           <li class="pagination__item">
-            <a href="{{prevPost.url}}" class="button button--pagination" title="page {{ prevPost.title }}">
+            <a href="{{ prevPost.url | relative_url }}" class="button button--pagination" title="page {{ prevPost.title }}">
               <span class="ghost">page précédente</span>
               <span data-inject="vector" data-file="icon--top" class="icon"></span>
             </a>
@@ -61,7 +61,7 @@
           {% endif %}
           {% if nextPost.url %}
           <li class="pagination__item">
-            <a href="{{nextPost.url}}" class="button button--pagination" title="page : {{ nextPost.title }}">
+            <a href="{{nextPost.url | relative_url }}" class="button button--pagination" title="page : {{ nextPost.title }}">
               <span class="ghost">page suivante</span>
               <span data-inject="vector" data-file="icon--bottom" class="icon"></span>
             </a>
@@ -70,7 +70,7 @@
 
           {% if prevPost.url and nextPost.url == nil %}
           <li class="pagination__item">
-            <a href="/quiz-jouons-ensemble/" class="button button--pagination" title="page : Quiz ! Jouons ensemble">
+            <a href="{{ '/quiz-jouons-ensemble/' | relative_url }}" class="button button--pagination" title="page : Quiz ! Jouons ensemble">
               <span class="ghost">page suivante</span>
               <span data-inject="vector" data-file="icon--bottom" class="icon"></span>
             </a>

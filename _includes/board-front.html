@@ -9,7 +9,7 @@
           <span class="ghost">Menu</span>
         </a>
         {% if page.headline-image %}
-        <figure class="headline__image" style="background-image:url('{{page.headline-image}}')"></figure>
+        <figure class="headline__image" style="background-image:url('{{page.headline-image | relative_url}}')"></figure>
         {% endif %}
       </div>
       <!-- /LEFTSIDE -->

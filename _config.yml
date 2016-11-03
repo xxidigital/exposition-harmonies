@@ -44,8 +44,8 @@ port: 8000
 process: 3003
 keep_files:
 - assets
-baseurl:
-url: "."
+baseurl: "/exposition-harmonies"
+url: "https://xxidigital.github.io"
 analytics: UA-XXXXX-Y
 email: jcf@xxi.fr
 description:

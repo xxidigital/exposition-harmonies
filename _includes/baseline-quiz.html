@@ -10,7 +10,7 @@
               <li class="pagination__label">page</li>
               <li class="pagination__number"><span class="button button--pagination">{{ total }}</span></li>
               <li class="pagination__item">
-                  <a href="{{ dernier.url }}" class="button button--pagination" title="page : {{ dernier.title }}">
+                  <a href="{{ dernier.url | relative_url }}" class="button button--pagination" title="page : {{ dernier.title }}">
                       <span class="ghost">page précédente</span>
                       <span data-inject="vector" data-file="icon--top" class="icon"></span>
                   </a>

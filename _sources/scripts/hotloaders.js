@@ -1,14 +1,14 @@
 const loadSvg = function(selector) {
 		const targets = document.querySelectorAll('[data-file="'+selector+'"]'),
-		 			folder = "./assets/graphics/vectors/";
+					paath = document.querySelector('meta[name="vector_path"]').getAttribute('content');
 					//const paath = window.location.pathname.replace(/[^\/]*$/, '');
 		let host = "";
-
+		
 		if(window.location.host !== "") {
-			host = window.location.protocol + '//' + window.location.host + '/' + folder;
+			host = window.location.protocol + '//' + window.location.host + '/' + paath;
 		}
 		else {
-			host = window.location.protocol + '//' + folder;
+			host = window.location.protocol + '//' + paath;
 		}
 
   	if (typeof SVGRect != "undefined") {
