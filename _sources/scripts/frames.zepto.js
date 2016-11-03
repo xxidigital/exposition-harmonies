@@ -46,7 +46,7 @@
       svg = '<svg width="28" height="28" fill="#FFFFFF" viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg"><path d="M1.657 27.658L.343 26.342l26-26 1.314 1.316-26 26m24.686 0l-26-26L1.657.342l26 26-1.314 1.316"/></svg>'
       ;
 
-      theFrame.append('<div class="frameBlock" style="position:relative;padding-bottom:56.25%;height:0;overflow: hidden;z-index:200;"></div>');
+      theFrame.append('<div class="frameBlock" style="position:relative;height:80vh;overflow: hidden;z-index:200;"></div>');
       if(params.type == "video") {
         theFrame.find(".frameBlock").append($('<iframe src="'+params.source+'" id="theFrame" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;" />'));
       }
