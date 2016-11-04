@@ -2,14 +2,16 @@
 
 ## Accés au site
 
-Adresse du consultation du projet sur github [https://xxidigital.github.io/exposition-harmonies/](https://xxidigital.github.io/exposition-harmonies/)
+Adresse du consultation du projet sur [Github](https://github.com/) [https://xxidigital.github.io/exposition-harmonies/](https://xxidigital.github.io/exposition-harmonies/)
 
-URL de l'admin sur [siteleaf](https://manage.siteleaf.com/sites/580cc2dd45f510259e2c7d38/pages)
+URL de l'admin sur [Siteleaf](https://manage.siteleaf.com/sites/580cc2dd45f510259e2c7d38/pages).
+
+Le projet est actuellement en test de déploiement sur [Netlifly](https://app.netlify.com/).
 
 ## Arborescence
 
-Le dossier *_process* contient l'ensemble des fichiers de configuration de [webpack](https://webpack.github.io/)
-Les fichiers statiques de styles et de scripts ainsi que les éléments graphiques sont contenu dans le dossier *sources*
+Le dossier *_process* contient l'ensemble des fichiers de configuration de [Webpack](https://webpack.github.io/).  
+Les fichiers statiques de styles et de scripts ainsi que les éléments graphiques sont contenu dans le dossier *sources*.
 Les fichiers générés via *webpack* sont sauvegardés dans le dossier *_assets*.
 Le dossier *_data* contient le fichier JSON des path des fichiers statiques générés.
 

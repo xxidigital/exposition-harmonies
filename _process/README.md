@@ -6,7 +6,7 @@ Le process front-end de ce projet utilise le langage [SASS](http://sass-lang.com
 La gestion du hot reloading sur les fichiers statiques est activé.
 
 #### Important
-En configuration de développement, le mode de reloading de Jekyll n'est pour le moment pas activé.
+En configuration de développement, le reloading de Jekyll est **désactivé** pour le moment.
 
 ## Installation
 
@@ -58,7 +58,7 @@ npm run deploy
 
 ## Gestion du versioning
 
-Le dépot [Git](https://git-scm.com/) se trouve sur [github](https://github.com/xxidigital/exposition-harmonies)
+Le dépot [Git](https://git-scm.com/) se trouve sur [Github](https://github.com/xxidigital/exposition-harmonies)
 
 Mise à jour des fichiers depuis le dépot distant
 
