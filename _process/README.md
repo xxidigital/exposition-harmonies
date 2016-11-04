@@ -24,7 +24,7 @@ Initialisation de Jekyll
 bundle install
 ```
 
-Installation du gestionnaire de paquets de [yarn](https://yarnpkg.com/)
+Installation du gestionnaire de paquets [yarn](https://yarnpkg.com/)
 
 ```
 npm install -g yarn
@@ -36,7 +36,7 @@ Installation des dépendences du projet
 yarn install
 ```
 
-## Lignes de commandes
+## Lignes de commandes du process
 
 Lancement du serveur de développement
 
@@ -54,4 +54,32 @@ Génération du site et déploiement sur github page
 
 ```
 npm run deploy
+```
+
+## Gestion du versioning
+
+Le dépot [Git](https://git-scm.com/) se trouve sur [github](https://github.com/xxidigital/exposition-harmonies)
+
+Mise à jour des fichiers depuis le dépot distant
+
+```
+git pull
+```
+
+Ajout des fichiers sur le dépot local
+
+```
+git add -A && git commit -m "ceci est mon commentaire"
+```
+
+Mise à jour des fichiers sur le dépot distant
+
+```
+git push origin master
+```
+
+Mise à jour du site sur la branche gh-pages du dépot distant
+
+```
+gh-pages -d _site
 ```
