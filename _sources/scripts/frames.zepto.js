@@ -1,9 +1,8 @@
 (function($) { $(document).ready(function($){
     $('.popover').click(function(){
-      if($(document).width() > 576) {
-          $(this).generateFrame();
-        return false;
-      }
+      //if($(document).width() > 576) {}
+      $(this).generateFrame();
+      return false;
     });
 
     $('body').on('click','.curtain , .button--frame--close',function (e) {
@@ -48,7 +47,7 @@
 
       theFrame.append('<div class="frameBlock" style="position:relative;height:80vh;overflow: hidden;z-index:200;"></div>');
       if(params.type == "video") {
-        theFrame.find(".frameBlock").append($('<iframe src="'+params.source+'" id="theFrame" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;" />'));
+        theFrame.find(".frameBlock").append($('<iframe src="'+params.source+'" id="theFrame" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen playsinline style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;" />'));
       }
       else if(params.type == "image") {
         theFrame.find(".frameBlock").append($('<img src="'+params.source+'" id="theFrame" style="position: absolute;top: 5%;left: 50%; transform: translate(-50%, 0); width: auto;height: 90%;" />'));

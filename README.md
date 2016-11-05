@@ -2,9 +2,9 @@
 
 ## Accés au site
 
-Adresse du consultation du projet sur [Github](https://github.com/) [https://xxidigital.github.io/exposition-harmonies/](https://xxidigital.github.io/exposition-harmonies/)
+L'adresse de consultation du projet sur [Github](https://github.com/) se trouve ici :  [https://xxidigital.github.io/exposition-harmonies/](https://xxidigital.github.io/exposition-harmonies/)
 
-URL de l'admin sur [Siteleaf](https://manage.siteleaf.com/sites/580cc2dd45f510259e2c7d38/pages).
+L'URL de l'administration du site sur [Siteleaf](https://manage.siteleaf.com/sites/580cc2dd45f510259e2c7d38/pages).
 
 Le projet est actuellement en test de déploiement sur [Netlifly](https://app.netlify.com/).
 

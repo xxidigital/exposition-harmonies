@@ -4,7 +4,7 @@
 }
 
 .logotype--baseline {
-  width: 12vw;
+  width: 10.75rem;//37.5vw;
 }
 
 .logotype--negative {
@@ -27,4 +27,9 @@
 
 .logotype--negative svg * {
     fill: $noir;
+}
+
+.logotype--small svg,
+.logotype--baseline svg {
+  height: 100%;
 }
