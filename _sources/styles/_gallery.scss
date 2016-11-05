@@ -63,6 +63,20 @@
     overflow: hidden;
 }
 
+@media screen and (min-width: 576px) {
+    .gallery__figure {
+      width: 36vw;
+      height: 36vw;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .gallery__figure {
+      width: 14.5vw;
+      height: 14.5vw;
+    }
+}
+
 .gallery__figure:hover {
     background-color: $noir;
 }

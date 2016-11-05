@@ -1,10 +1,51 @@
 .side {
-    display: inline-flex;
+  min-width: 100%;
+  width: 100%;
+  padding: 2.5em 3em 1.5em;
 }
 
-#rightside {
-    padding: 2.5em 1.5em 1.5em;
+@media screen and (orientation: portrait) {
+  .side {
+      padding-left: 1.5em;
+      padding-right: 1.5em;
+  }
+}
+
+@media screen and (orientation: landscape) {
+  .side {
+    min-width: 50%;
+    width: 50%;
+    // min-height: 85vh;
+  }
+
+  .side--full {
+    width: 100%;
+    min-width: 100%;
+  }
+}
+
+@media screen and (min-width: 567px) {
+  .side {
+    display: flex;
     flex-wrap: wrap;
-    align-content: flex-start;
-    z-index: 10;
+  }
+}
+
+#leftside {
+  display: inline-flex;
+  padding: 0;
+}
+
+@media screen and (orientation: portrait) {
+  #leftside {
+      min-width: 94vw;
+      height: calc(94vw * .5);
+  }
+}
+
+@media screen and (min-width: 89em) {
+  .side {
+    height: 100%;
+    min-height: 42.25em;
+  }
 }

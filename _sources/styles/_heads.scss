@@ -4,6 +4,12 @@
     display: inline-block;
 }
 
+@media screen and (min-width: 567px) {
+  .head {
+      display: inline-block;
+  }
+}
+
 .head a {
     text-decoration: none;
     display: block;
@@ -11,7 +17,7 @@
 
 .head__title {
     width: 100%;
-    margin-bottom: 8.6vh;
+    margin-bottom: 30px;
 }
 
 .head__logo svg {
@@ -55,6 +61,12 @@
     color: $hover;
 }
 
+@media screen and (orientation: portrait) {
+  .headline {
+    padding-bottom: 3em;
+  }
+}
+
 .headline__title {
     margin: 1em 0 0;
 }
@@ -65,6 +77,7 @@
 }
 
 .headline__image {
+    margin: 0;
     width: 100%;
     background-repeat: no-repeat;
     background-position: top center;

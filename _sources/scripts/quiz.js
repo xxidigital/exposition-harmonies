@@ -4,10 +4,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
   function setQuizStep(index) {
     // Move holder
-    const slide = 88.74 * (index - 1),
+    const slide = document.querySelector('.quiz__article:first-child').offsetWidth * (index - 1),
               holder = document.querySelector('.holder');
 
-    holder.setAttribute('style','transform: translateX(-'+slide+'vw)');
+    holder.setAttribute('style','transform: translateX(-'+slide+'px)');
     // Set quiz nav element
     [].map.call(document.querySelectorAll('.quiz__nav__link'), function(bouton) {
     if(bouton !== null) {
@@ -96,7 +96,7 @@ document.addEventListener('DOMContentLoaded', function() {
           }
         });
       });
-      
+
     }
 
       });

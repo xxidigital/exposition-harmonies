@@ -1,32 +1,43 @@
 #main {
-    position: relative;
-    padding: 5vh 3vw;
-    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     min-height: 100vh;
-    height: 100vh;
-    perspective: 1200px;
-    -webkit-perspective: 1200px;
-    -moz-perspective: 1200px;
 }
 
 .image--home {
   display: inline-block;
   z-index: 1;
   text-align: center;
+  margin: 0 auto;
+}
+
+.image--home img {
+  height: auto;
+}
+
+@media screen and (orientation: landscape) {
+  .image--home {
+    display: block;
+    z-index: 1;
+    width: 40vw;
+  }
 }
 
 .confettis {
   position: absolute;
   width: 94vw;
+  height: auto;
   max-height: 85vh;
   overflow: hidden;
   right: 0;
   top: 0;
   z-index: 2;
   text-align: right;
+  opacity: 0.5;
 }
 
 .confettis svg {
   max-width: 100%;
-  height: auto;
+  height: 100%;
 }

@@ -50,10 +50,10 @@
         theFrame.find(".frameBlock").append($('<iframe src="'+params.source+'" id="theFrame" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen playsinline style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;" />'));
       }
       else if(params.type == "image") {
-        theFrame.find(".frameBlock").append($('<img src="'+params.source+'" id="theFrame" style="position: absolute;top: 5%;left: 50%; transform: translate(-50%, 0); width: auto;height: 90%;" />'));
+        theFrame.find(".frameBlock").append($('<img src="'+params.source+'" id="theFrame" style="position: absolute;top: 5%;left: 50%; transform: translate(-50%, 0); width: 100%;height: auto;" />'));
       }
       theFrame.append('<div class="curtain" style="display: block;position: fixed;left: 0;top: 0;width: 100%;height: 100%;cursor: pointer;background-color:rgba(0,0,0,0.8);"></div>');
-      theFrame.append('<a href="#" class="button--frame--close" style="padding:1rem;display:block;position:absolute;right:-60px;top:10px;z-index:300;"><i class="icon--close">'+svg+'</i></a>');
+      theFrame.append('<a href="#" class="button--frame--close" style="padding:1rem;display:block;position:absolute;right:0px;top:-60px;z-index:300;"><i class="icon--close">'+svg+'</i></a>');
       theFrame.appendTo($('body'));
       theFrame.centerFrame();
     }

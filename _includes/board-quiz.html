@@ -5,13 +5,12 @@
         <span class="ghost">Menu</span>
     </a>
     <!-- WRAPPER -->
-    <div class="wrapper">
-        <div class="pad">
+    <div class="side side--full">
             <header class="headline__header">
                 <h1 class="headline__title">{{page.title}}</h1>
             </header>
             <!-- QUIZ -->
-            <section class="side side--full quiz" data-total="{{ site.quiz | size }}">
+            <section class="quiz" data-total="{{ site.quiz | size }}">
                 <div class="holder">
                     {% assign nombre = 0 %}
                     {% for etape in site.quiz %}
@@ -42,7 +41,6 @@
                     </article>
                 </div>
             </section>
-        </div>
         <!-- /QUIZ -->
         <!-- QUIZ-NAV -->
         <div class="quiz__nav">

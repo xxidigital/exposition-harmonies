@@ -3,8 +3,14 @@
     width: 50vw;
 }
 
+@media screen and (min-width: 576px) {
+    .logotype:not(.logotype--baseline) {
+        width: 18vw;
+    }
+}
+
 .logotype--baseline {
-  width: 10.75rem;//37.5vw;
+  width: 8.75rem;//37.5vw;
 }
 
 .logotype--negative {

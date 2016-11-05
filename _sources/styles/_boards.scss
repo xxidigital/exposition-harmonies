@@ -1,107 +1,59 @@
-#mainboard {
-    max-width: $maxw;
-    width: 100%;
-    height: 100%;
-    transform-style: preserve-3d;
-    transition: 700ms;
-}
-
-#mainboard.state--reverse {
-    transform: rotateX(-180deg);
-}
-
-#mainboard.state--flip #homeboard,
-#mainboard.state--flip #frontboard,
-#mainboard.state--flip #quizboard,
-#mainboard.state--reverse #frontboard,
 .board {
-    transition: visibility 600ms, opacity 600ms, z-index 600ms ease-in-out;
-    visibility: hidden;
-    opacity: 0;
-    z-index: 10;
-}
-
-#mainboard.state--reverse #backboard {
-    visibility: visible;
-    z-index: 20;
-    opacity: 1;
-    max-height: inherit;
-    overflow: inherit;
-}
-
-#mainboard.state--flip {
-    transform: rotateY(180deg);
-}
-
-#mainboard.state--flip #homeboard,
-#mainboard.state--flip #frontboard,
-#mainboard.state--flip #quizboard,
-#mainboard.state--reverse #frontboard {
-    margin-bottom: 0;
-    max-height: 0;
-    overflow: hidden;
-}
-
-#mainboard.state--flip #menuboard {
-    visibility: visible;
-    z-index: 20;
-    opacity: 1;
-    max-height: inherit;
-    overflow: inherit;
-}
-
-.board {
-    background-color: green;
-    position: absolute;
+    position: relative;
+    display: flex;
     backface-visibility: hidden;
-    -webkit-backface-visibility: hidden;
+    max-width: 90em;
     width: 94vw;
-    max-width: $maxw;
-    min-height: 85vh;
+    max-height: inherit;
     box-shadow: -5px 5px 5px rgba(0, 0, 0, .3);
     background: white;
     color: $noir;
-    max-height: $maxh;
-    overflow: hidden;
 }
 
-.board:after {
-  position: absolute;
-  content: "";
-  bottom: -5vh;
-  height: 5vh;
-  width: 240px;
+@media screen and (orientation: portrait) {
+  .board {
+    flex-wrap: wrap;
+  }
 }
 
-.pad {
-  padding: 2.5em 1.5em 1.5em;
+#mainboard {
+    transition: .7s;
+    max-width: 90em;
+    width: 100%;
+    margin: 5vh 3vw;
+    background: transparent;
 }
 
-#homeboard,
-#frontboard,
-#quizboard {
-    visibility: visible;
-    z-index: 5;
-    opacity: 1;
-    //height: auto;
-    //max-height: inherit;
-    max-height: $maxh;
-    overflow: inherit;
+.state--flip #homeboard,
+.state--flip #frontboard,
+.state--flip #quizboard,
+.state--reverse #frontboard {
+    display: none;
+  }
+
+.state--reverse #backboard,
+.state--flip #menuboard {
+      display: inline-flex;
+    }
+
+#backboard,
+#menuboard {
+  display: none;
+}
+
+@media screen and (min-width: 90em) {
+  #frontboard {
+    max-height: 42.25em;
+  }
 }
 
 #homeboard,
 #menuboard {
-  padding: 6.5em 3em 3em;
-}
-
-#backboard {
-    padding: 2.5em 1.5em 1.5em;
-    transform: rotateX(-180deg);
-    bottom: 0;
+  padding-top: 4em;
+  padding-bottom: 1.5em;
 }
 
 #menuboard {
-    transform: rotateY(180deg);
     background: $noir;
     color: white;
 }

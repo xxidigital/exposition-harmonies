@@ -1,22 +1,10 @@
 #baseline {
-    position: relative;
-    display: block;
-    width: 100%;
-    min-width: 100%;
-    height: 180px;
-    background: $noir;
-    color: $hover;
-}
-
-#baseline:before {
-    content: '';
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: -30px;
-    height: 75px;
-    transform: skew(0, -2deg);
-    background: $noir;
+  border-top: 1px solid $hover;
+  position: relative;
+  display: block;
+  width: 100%;
+  min-width: 100%;
+  color: $hover;
 }
 
 .baseline__container {
@@ -25,13 +13,28 @@
     width: 100%;
     position: relative;
     z-index: 10;
-    padding: 0 1.5em;
+    padding: 1.5em 0 0;
     min-width: 100%;
-    align-self: flex-start;
 }
 
-.baseline__container+.baseline__container {
-    margin-top: 1.5rem;
+@media screen and (min-width: 576px) {
+  #baseline {
+    display: inline-flex;
+    align-self: flex-end;
+    padding-top: 1.5em;
+  }
+
+  .baseline__container {
+    text-align: left;
+    width: calc(50% - 3px);
+    min-width: auto;
+    padding: 0;
+    vertical-align: top;
+  }
+
+  .baseline__container + .baseline__container {
+    text-align: right;
+  }
 }
 
 .baseline__title {
@@ -40,12 +43,14 @@
 }
 
 .baseline__block {
-    text-align: center;
+  text-align: center;
+  width: auto;
+  display: inline-block;
 }
 
 .baseline__subtitle {
     margin: 0;
-    color: #F2D890;
+    color: $hover;
     font-size: 0.8125em;
     font-weight: 400;
     line-height: 1.2;

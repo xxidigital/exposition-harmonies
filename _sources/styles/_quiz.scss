@@ -1,8 +1,7 @@
 .quiz {
 margin: 2em 0;
-//box-shadow: -3px 3px 5px rgba(0, 0, 0, .1);
 border-left: 2px solid $clair;
-// background-color: #FEFEFE;
+overflow: hidden;
 }
 
 .holder {
@@ -14,7 +13,7 @@ border-left: 2px solid $clair;
 .quiz__result {
   flex-shrink: 0;
   width: calc(94vw - 3em);
-  min-height: calc(90vh - 240px - 12em);
+  max-width: calc(1440px - 6em);
   padding: 1.5em;
 }
 
@@ -38,8 +37,4 @@ border-left: 2px solid $clair;
 .quiz__nav__item {
   list-style: none;
   display: inline-block;
-}
-
-.quiz__nav__link {
-
 }
