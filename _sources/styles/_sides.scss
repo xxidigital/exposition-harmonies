@@ -26,7 +26,7 @@
 
 @media screen and (min-width: 567px) {
   .side {
-    display: flex;
+    //display: flex;
     flex-wrap: wrap;
   }
 }
@@ -41,6 +41,12 @@
       min-width: 94vw;
       height: calc(94vw * .5);
   }
+}
+
+@media screen and (min-width: 567px) {
+    #rightside {
+        display: flex;
+    }
 }
 
 @media screen and (min-width: 89em) {

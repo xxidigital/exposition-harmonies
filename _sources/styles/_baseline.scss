@@ -17,7 +17,29 @@
     min-width: 100%;
 }
 
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 576px) and (max-width: 780px) {
+    #baseline {
+      display: inline-flex;
+      align-self: flex-end;
+      padding-top: 1.5em;
+    }
+
+    .baseline__container {
+      text-align: left;
+      width: calc(60% - 3px);
+      min-width: auto;
+      padding: 0;
+      vertical-align: top;
+    }
+
+    .baseline__container + .baseline__container {
+      text-align: right;
+      width: calc(40% - 3px);
+    }
+}
+
+
+@media screen and (min-width: 980px) {
   #baseline {
     display: inline-flex;
     align-self: flex-end;
@@ -26,7 +48,7 @@
 
   .baseline__container {
     text-align: left;
-    width: calc(50% - 3px);
+    width: calc(60% - 3px);
     min-width: auto;
     padding: 0;
     vertical-align: top;
@@ -34,6 +56,7 @@
 
   .baseline__container + .baseline__container {
     text-align: right;
+    width: calc(40% - 3px);
   }
 }
 
