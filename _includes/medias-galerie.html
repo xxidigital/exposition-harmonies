@@ -4,10 +4,11 @@
   <ul class="gallery">
     {% for picture in page.galerie-images %}
     <li class="gallery__item">
-      <a class="gallery__figure popover"  data-type="image" href="{{ picture | relative_url }}">
-        <img src="{{ picture | relative_url }}" alt="image concernant {{ page.title }}" class="gallery__image" />
+      <a class="gallery__figure popover"  data-type="image" href="{{ picture.image | relative_url }}">
+        <img src="{{ picture.image | relative_url }}" alt="image concernant {{ picture.legende }}" class="gallery__image" />
         <span data-inject="vector" data-file="icon--extended" class="icon"></span>
       </a>
+      <h3 class="gallery__title"><strong>{{ picture.legende }}</strong></h3>
     </li>
     {% endfor %}
   </ul>

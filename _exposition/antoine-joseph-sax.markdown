@@ -4,8 +4,10 @@ date: 2016-10-01 13:34:00 Z
 headline-image: "/uploads/adolfsax_640x800.jpg"
 dates: 1814 ~ 1894
 galerie-images:
-- "/uploads/gal_adolfsax_800x600.jpg"
-- "/uploads/gal_adolphesaxcaricature_800x640.jpg"
+- image: "/uploads/gal_adolfsax_800x600.jpg"
+  legende: Texte de la légende
+- image: "/uploads/gal_adolphesaxcaricature_800x640.jpg"
+  legende: légende 2
 videos:
 - image: "/uploads/adolfsax_640x800.jpg"
   url: https://www.youtube.com/watch?v=dcFR6-KsYeM
