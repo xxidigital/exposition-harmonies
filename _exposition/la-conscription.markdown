@@ -5,4 +5,19 @@ headline-image: "/uploads/image-640-800-1.jpeg"
 layout: exposition
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+# de 1870 à 1962
+Le tirage au sort, organisé au chef-lieu de canton, avait pour but de recruter les futurs soldats. Chaque appelé, ou son représentant, devait tirer un numéro dans une urne. Un numéro de référence désignait le nombre de soldats devant constituer le régiment ; si le numéro était inférieur au numéro de base, l’appelé devait effectuer son service militaire. (D’où l’expression : tirer le mauvais numéro).
+
+N’effectuaient le service militaire que 30 à 35 % des conscrits célibataires ou veufs sans enfants. Chaque canton procédait au recrutement :
+* Épreuve de la toise : grandeur minimum 1,54 m (Maurice Ravel, grand compositeur français ne mesurait pas cette taille, raison pour laquelle il n’a pas été retenu pour la guerre de 14/18).
+* Étaient exemptés :
+1. Ceux qui présentaient des difformités des membres (cas fréquent à cette époque).
+2. Les problèmes de vue,
+3. Index droit coupé, à cause du tir (mutilation souvent volontaire pour ne pas partir),
+4. Dentition en mauvais état, (on devait ouvrir les étuis à papier qui contenaient la poudre avant 1970),
+5. Les mariés et les veufs avec enfants,
+6. Les enseignants et les ecclésiastiques.
+
+En mars 1905, la loi impose le service personnel égal et obligatoire pour 2 ans.
+
+En 1913, le temps est porté à 3 ans. Ce n’est qu’en 1939 que la durée légale est ramenée à 2 ans. Après la guerre de 39/45, le service militaire est de 1 an. Il est porté à 18 mois durant la guerre d’Algérie et cela jusqu’aux accords d’Évian en mars 1962. Il a été abrogé en 1997.
