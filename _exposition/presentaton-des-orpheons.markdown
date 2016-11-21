@@ -9,7 +9,6 @@ audio:
 - reference: 3693638067
   url: http://expositionharmonies.bandcamp.com/album/sequence-04
   titre: Histoire contée 01
-
 layout: exposition
 ---
 

@@ -16,12 +16,15 @@ videos:
   url: https://www.youtube.com/watch?v=dcFR6-KsYeM
   titre: Hippolyte Dumazet
   duree: 3'43"
+<<<<<<< HEAD
 audio:
 - reference: 3466391675
   url: http://expositionharmonies.bandcamp.com/album/s-quence-06
   titre: Histoire contée 03
 
 
+=======
+>>>>>>> 1700dbbac29ac3136c92e7093fd571fbd05114f6
 layout: exposition
 ---
 

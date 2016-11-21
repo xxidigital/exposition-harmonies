@@ -3,9 +3,15 @@ title: De nos jours
 date: 2016-10-14 13:34:00 Z
 headline-image: "/uploads/14/14_aria-640x800.jpg"
 audio:
+<<<<<<< HEAD
 - reference: 3937794479
 url: http://expositionharmonies.bandcamp.com/album/s-quence-14
 titre: Histoire contée 11
+=======
+- reference: 1306303589
+url: https://goat.bandcamp.com/album/requiem
+titre: Requiem by Goat
+>>>>>>> 1700dbbac29ac3136c92e7093fd571fbd05114f6
 layout: exposition
 ---
 
