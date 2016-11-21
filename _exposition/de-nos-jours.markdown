@@ -1,18 +1,5 @@
 ---
-title: De nos jours
-date: 2016-10-14 13:34:00 Z
-headline-image: "/uploads/14/14_aria-640x800.jpg"
-audio:
-<<<<<<< HEAD
-- reference: 3937794479
-url: http://expositionharmonies.bandcamp.com/album/s-quence-14
-titre: Histoire contée 11
-=======
-- reference: 1306303589
-url: https://goat.bandcamp.com/album/requiem
-titre: Requiem by Goat
->>>>>>> 1700dbbac29ac3136c92e7093fd571fbd05114f6
-layout: exposition
+title: De Nos Jours
 ---
 
 Avec la disparition de l'Harmonie des Forgerons en 1971, et faute de musique pour les services officiels, la municipalité fait appel à la fanfare de Villefranche. Mais cette situation ne satisfait personne. Il était souhaitable qu'un ensemble musical commentryen existe… d'où l'idée de recréer une harmonie. Mais pour y arriver, encore fallait-il former des musiciens… d'où l’idée de monter une école municipale de musique !

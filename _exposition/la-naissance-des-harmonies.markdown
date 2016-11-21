@@ -1,31 +1,5 @@
 ---
-title: Les harmonies à Commentry
-date: 2016-10-06 13:34:00 Z
-headline-image: "/uploads/06/06_stephilarmonique-640x800.jpg"
-galerie-images:
-- image: "/uploads/06/06_stephilarmonique-800x600.jpg"
-  legende: Société Philharmonique dans les années trente
-- image: "/uploads/06/06_societemusicamedesforgerons_1872-800x600.jpg"
-  legende: Société musicale des forgerons en 1872
-- image: "/uploads/06/06_societemusicaledesforgerons1872-800x600.jpg"
-  legende: Société musicale des forgerons en 1872
-- image: "/uploads/06/06_unionsymphonique1931-800x600.jpg"
-  legende: Union symphonique amicale de Commentry en 1931
-videos:
-- image: "/uploads/06/06_hyppolyte-dumazet-600x600.jpg"
-  url: https://www.youtube.com/watch?v=dcFR6-KsYeM
-  titre: Hippolyte Dumazet
-  duree: 3'43"
-<<<<<<< HEAD
-audio:
-- reference: 3466391675
-  url: http://expositionharmonies.bandcamp.com/album/s-quence-06
-  titre: Histoire contée 03
-
-
-=======
->>>>>>> 1700dbbac29ac3136c92e7093fd571fbd05114f6
-layout: exposition
+title: La Naissance Des Harmonies
 ---
 
 De la Société philarmonique à l’Union symphonique de Commentry, en passant par la Société musicale des Forgerons et l’Union chorale de Commentry : Voilà quelles furent les orchestres d’harmonie de Commentry.
