@@ -15,9 +15,9 @@ videos:
   titre: Et pendant ce temps-là… retro des années
   duree: 2'
 audio:
-- reference: 1306303589
-  url: https://goat.bandcamp.com/album/requiem
-  titre: Requiem by Goat
+- reference: 4248744315
+  url: http://expositionharmonies.bandcamp.com/album/s-quence-13
+  titre: Histoire contée 10
 layout: exposition
 ---
 

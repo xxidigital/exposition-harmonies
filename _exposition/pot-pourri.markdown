@@ -19,8 +19,8 @@ videos:
   titre: La seconde guerre mondiale
   duree: 2'
 audio:
-- reference: 1306303589
-  url: https://goat.bandcamp.com/album/requiem
-  titre: Requiem by Goat
+- reference: 1104209032
+  url: http://expositionharmonies.bandcamp.com/album/s-quence-11
+  titre: Histoire contée 08
 layout: exposition
 ---

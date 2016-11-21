@@ -12,9 +12,9 @@ galerie-images:
 - image: "/uploads/09/09_claironsellierquisonnalecessezdefeule11novembre1918-800x600.jpg"
   legende: Clairon sellier qui sonna le cessez le feu le 11novembre 1918
 audio:
-- reference: 1306303589
-  url: https://goat.bandcamp.com/album/requiem
-  titre: Requiem by Goat
+- reference: 2110974241
+  url: http://expositionharmonies.bandcamp.com/album/s-quence-09
+  titre: Histoire contée 06
 layout: exposition
 ---
 

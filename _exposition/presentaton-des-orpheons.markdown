@@ -6,8 +6,8 @@ galerie-images:
 - image: "/uploads/04/04_-Wilhem_800x640.jpg"
   legende: Guillaume-Louis Bocquillon, dit Wilhem (1781-1842)
 audio:
-- reference: 2839691784
-  url: https://expositionharmonies.bandcamp.com/track/histoire-cont-e-01
+- reference: 3693638067
+  url: http://expositionharmonies.bandcamp.com/album/sequence-04
   titre: Histoire contée 01
 
 layout: exposition

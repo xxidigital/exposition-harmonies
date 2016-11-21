@@ -8,9 +8,9 @@ url: https://www.youtube.com/watch?v=dcFR6-KsYeM
 titre: Catastrophe Thiers
 duree: 1'32"
 audio:
-- reference: 2839691784
-  url: http://expositionharmonies.bandcamp.com/track/histoire-cont-e-01
-  titre: Histoire contée 01
+- reference: 4153343193
+  url: http://expositionharmonies.bandcamp.com/album/s-quence-07-2
+  titre: Histoire contée 04
 layout: exposition
 ---
 

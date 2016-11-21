@@ -3,10 +3,9 @@ title: De nos jours
 date: 2016-10-14 13:34:00 Z
 headline-image: "/uploads/14/14_aria-640x800.jpg"
 audio:
-- reference: 1306303589
-url: https://goat.bandcamp.com/album/requiem
-titre: Requiem by Goat
-layout: exposition
+- reference: 3937794479
+url: http://expositionharmonies.bandcamp.com/album/s-quence-14
+titre: Histoire contée 11
 layout: exposition
 ---
 

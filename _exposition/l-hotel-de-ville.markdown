@@ -26,9 +26,9 @@ galerie-images:
 - image: "/uploads/08/08_theatreannee30-800x600.jpg"
   legende: Le Théâtre dans les années 30
 audio:
-- reference: 1306303589
-  url: https://goat.bandcamp.com/album/requiem
-  titre: Requiem by Goat
+- reference: 3967244933
+  url: http://expositionharmonies.bandcamp.com/album/s-quence-08
+  titre: Histoire contée 05
 layout: exposition
 ---
 

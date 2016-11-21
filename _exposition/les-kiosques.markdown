@@ -29,9 +29,9 @@ videos:
   titre: le rôle des orchestres d’harmonie dans la diffusion et la vulgarisation de la culture musicale émanant de la Capitale
   duree: 2'
 audio:
-- reference: 1306303589
-  url: https://goat.bandcamp.com/album/requiem
-  titre: Requiem by Goat
+- reference: 4002048387
+  url: http://expositionharmonies.bandcamp.com/album/s-quence-10
+  titre: Histoire contée 07
 layout: exposition
 ---
 

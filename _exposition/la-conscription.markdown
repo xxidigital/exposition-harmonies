@@ -29,9 +29,9 @@ videos:
   titre: La Madelon
   duree: 3'24"
 audio:
-- reference: 1306303589
-url: https://goat.bandcamp.com/album/requiem
-titre: Requiem by Goat
+- reference: 2490104032
+url: http://expositionharmonies.bandcamp.com/album/s-quence-05
+titre: Histoire contée 02
 layout: exposition
 ---
 
