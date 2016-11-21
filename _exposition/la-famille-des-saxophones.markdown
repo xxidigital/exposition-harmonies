@@ -1,13 +1,17 @@
 ---
 title: La famille des saxophones
 date: 2016-10-03 05:30:00 Z
-headline-image: "/uploads/saxophone_640x800.jpg"
+headline-image: "/uploads/03/03_saxophone_640x800.jpg"
 layout: exposition
 galerie-images:
-- "/uploads/saxophone2_800x640.jpg"
-- "/uploads/saxophone_800x640.jpg"
+- image: "/uploads/03/03_saxophone2_800x640.jpg"
+  legende: Dessins préparatoires d’Adolphe Sax
+- image: "/uploads/03/03_saxophone_800x640.jpg"
+  legende: Saxophone
+- image: "/uploads/03/03_colemanhawkins_800x640.jpg"
+  legende: Coleman Hawkins
 videos:
-- image: "/uploads/adolfsax_640x800.jpg"
+- image: "/uploads/01/adolfsax_640x800.jpg"
   url: https://www.youtube.com/watch?v=dcFR6-KsYeM
   titre: Biographie d’Adolphe Sax
   duree: 2 min

@@ -1,11 +1,40 @@
 ---
-title: La conscription
+title: La conscription de 1870 à 1962
 date: 2016-10-05 13:34:00 Z
-headline-image: "/uploads/image-640-800-1.jpeg"
+headline-image: "/uploads/05/05_Conscription_640x800.jpg"
+galerie-images:
+- image: "/uploads/05/05_tirageausort-800x640.jpg"
+  legende: Tirage au sort
+- image: "/uploads/05/05_conscrits-800x600.jpg"
+  legende: Conscrits
+- image: "/uploads/05/05_paysanbourbonnais-1-800x600.jpg"
+  legende: Paysans Bourbonnaissort
+- image: "/uploads/05/05_paysanbourbonnais-2-800x600.jpg"
+  legende: Paysans Bourbonnais
+- image: "/uploads/05/05_forges-1-8000x600.jpg"
+  legende: Les Forges de Commentry
+- image: "/uploads/05/05_forges-2-800x600.jpg"
+  legende: Les Forges de Commentry
+- image: "/uploads/05/05_forges4-800x600.jpg"
+  legende: Les Forges de Commentry
+- image: "/uploads/05/05_forges5-800x600.jpg"
+  legende: Les Forges de Commentry
+- image: "/uploads/05/05_mineurcommentry-1-800x600.jpg"
+  legende: Mineur
+- image: "/uploads/05/05_mineurcommentry-2-800x600.jpg"
+  legende: Mineur
+videos:
+- image: "/uploads/05/05_Lamadelon.jpg"
+  url: https://www.youtube.com/watch?v=FDdReYblKsE
+  titre: La Madelon
+  duree: 3'24"
+audio:
+- reference: 1306303589
+url: https://goat.bandcamp.com/album/requiem
+titre: Requiem by Goat
 layout: exposition
 ---
 
-# de 1870 à 1962
 Le tirage au sort, organisé au chef-lieu de canton, avait pour but de recruter les futurs soldats. Chaque appelé, ou son représentant, devait tirer un numéro dans une urne. Un numéro de référence désignait le nombre de soldats devant constituer le régiment ; si le numéro était inférieur au numéro de base, l’appelé devait effectuer son service militaire. (D’où l’expression : tirer le mauvais numéro).
 
 N’effectuaient le service militaire que 30 à 35 % des conscrits célibataires ou veufs sans enfants. Chaque canton procédait au recrutement :

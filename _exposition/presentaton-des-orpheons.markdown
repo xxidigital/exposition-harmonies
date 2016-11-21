@@ -1,7 +1,15 @@
 ---
 title: Les orchestres d’harmonie
 date: 2016-10-04 13:34:00 Z
-headline-image: "/uploads/image-640-800-1.jpeg"
+headline-image: "/uploads/04/04_Jean_640x800.jpg"
+galerie-images:
+- image: "/uploads/04/04_-Wilhem_800x640.jpg"
+  legende: Guillaume-Louis Bocquillon, dit Wilhem (1781-1842)
+audio:
+- reference: 2839691784
+  url: https://expositionharmonies.bandcamp.com/track/histoire-cont-e-01
+  titre: Histoire contée 01
+
 layout: exposition
 ---
 

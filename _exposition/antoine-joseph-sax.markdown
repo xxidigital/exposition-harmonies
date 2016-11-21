@@ -1,22 +1,22 @@
 ---
 title: Antoine-Joseph Sax
 date: 2016-10-01 13:34:00 Z
-headline-image: "/uploads/adolfsax_640x800.jpg"
+headline-image: "/uploads/01/01_adolfsax_640x800.jpg"
 dates: 1814 ~ 1894
 galerie-images:
-- image: "/uploads/gal_adolfsax_800x600.jpg"
-  legende: Texte de la légende
-- image: "/uploads/gal_adolphesaxcaricature_800x640.jpg"
-  legende: légende 2
+- image: "/uploads/01/01_gal_adolfsax_800x600.jpg"
+  legende: Portrait d’Adolphe Sax
+- image: "/uploads/01/01_gal_adolphesaxcaricature_800x640.jpg"
+  legende: Caricature d’Adolphe Sax
 videos:
-- image: "/uploads/adolfsax_640x800.jpg"
+- image: "/uploads/01/01_adolfsaxvideo1_640x640.jpg"
   url: https://www.youtube.com/watch?v=dcFR6-KsYeM
   titre: Biographie d’Adolphe Sax
-  duree: 2 min
-- image: "/uploads/adolfsaxVideo2_640x800.jpg"
+  duree: 2'
+- image: "/uploads/01/01_adolfsaxVideo2_640x640.jpg"
   url: https://www.youtube.com/watch?v=-bLqySDykww
   titre: Pièce musicale
-  duree: 1min
+  duree: 1'
 audio:
 - reference: 1306303589
   url: https://goat.bandcamp.com/album/requiem

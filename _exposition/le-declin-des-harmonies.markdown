@@ -1,8 +1,25 @@
 ---
 title: Le déclin des harmonies
 date: 2016-10-13 13:34:00 Z
-headline-image: "/uploads/image-640-800-1.jpeg"
+headline-image: "/uploads/13/13_BillHaley-640x800.jpg"
+galerie-images:
+- image: "/uploads/13/13_modeannee70-2-800x600.jpg"
+  legende: Mode années 70
+- image: "/uploads/13/13_fauteuil-800x600.jpg"
+  legende: Fauteuil années 70
+- image: "/uploads/13/13_teppaz-800x600.jpg"
+  legende: Teppaz
+videos:
+- image: "/uploads/01/01_adolfsaxvideo1_640x640.jpg"
+  url: https://www.youtube.com/watch?v=dcFR6-KsYeM
+  titre: Et pendant ce temps-là… retro des années
+  duree: 2'
+audio:
+- reference: 1306303589
+  url: https://goat.bandcamp.com/album/requiem
+  titre: Requiem by Goat
 layout: exposition
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+L’histoire du rock est relativement courte par rapport à celle d'autres genres musicaux. Il nait vers 1950 aux États-Unis où il connaît un grand succès et ressemble alors à un mélange de plusieurs styles (jazz, blues, country, bluegrass, etc.). Depuis, il a évolué et est devenu un style de musique très varié. Pourtant à la fin de la décennie, le rock 'n' roll perd de sa popularité et de sa vitalité. Certains grands noms de l'époque disparaissent. En 1958, Elvis Presley part au service militaire en Allemagne et délaisse la scène.
+Mais alors qu'il marque le pas aux États-Unis, le rock conquiert l'Europe. Il permet l'expression de la révolte des jeunes, en particulier des allemands, français et britanniques. En Angleterre, il connait un important renouveau dans les années 1960, avec l'avènement des Beatles et des Rolling Stones. Ce nouvel élan culturel soulève l’enthousiasme de la jeunesse française, rendant un peu « has been » les orchestres d’harmonie, jugés vieillots. Ceux-ci, emblème d’une forme de culture populaire, connaissent un déclin à partir des années 1970. Toute une série de transformations sociales qui, chacune avec leur temporalité́ propre, contribuent à affaiblir les bases sociales des harmonies. A Commentry, l’Harmonie des Forgerons jouera ses dernières notes en 1971, subissant de plein fouet ce déclin national.
