@@ -7,7 +7,6 @@ audio:
 url: https://goat.bandcamp.com/album/requiem
 titre: Requiem by Goat
 layout: exposition
-layout: exposition
 ---
 
 Avec la disparition de l'Harmonie des Forgerons en 1971, et faute de musique pour les services officiels, la municipalité fait appel à la fanfare de Villefranche. Mais cette situation ne satisfait personne. Il était souhaitable qu'un ensemble musical commentryen existe… d'où l'idée de recréer une harmonie. Mais pour y arriver, encore fallait-il former des musiciens… d'où l’idée de monter une école municipale de musique !

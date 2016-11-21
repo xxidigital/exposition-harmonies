@@ -16,7 +16,6 @@ videos:
   url: https://www.youtube.com/watch?v=dcFR6-KsYeM
   titre: Hippolyte Dumazet
   duree: 3'43"
-
 layout: exposition
 ---
 

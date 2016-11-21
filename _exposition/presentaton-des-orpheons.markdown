@@ -9,7 +9,6 @@ audio:
 - reference: 2839691784
   url: https://expositionharmonies.bandcamp.com/track/histoire-cont-e-01
   titre: Histoire contée 01
-
 layout: exposition
 ---
 

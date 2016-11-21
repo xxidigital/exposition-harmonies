@@ -26,7 +26,8 @@ galerie-images:
 videos:
 - image: "/uploads/01/01_adolfsaxvideo1_640x640.jpg"
   url: https://www.youtube.com/watch?v=dcFR6-KsYeM
-  titre: le rôle des orchestres d’harmonie dans la diffusion et la vulgarisation de la culture musicale émanant de la Capitale
+  titre: le rôle des orchestres d’harmonie dans la diffusion et la vulgarisation de
+    la culture musicale émanant de la Capitale
   duree: 2'
 audio:
 - reference: 1306303589
