@@ -46,18 +46,15 @@ defaults:
     choix:
       label:
     layout: quiz
-host: http://harmonies.21communication.net/
-port: 80
-# host: localhost
-# port: 3003
-process: 8000
+host: localhost
+port: 8000
+process: 3003
 keep_files:
 - assets
-devurl: '/exposition-harmonies'
 baseurl: ''
 url: http://harmonies.21communication.net
 githuburl: https://xxidigital.github.io
-env: production
+# env: production
 analytics: UA-XXXXX-Y
 email: jcf@xxi.fr
 description:

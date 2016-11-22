@@ -24,3 +24,14 @@ Les médias utilisés dans le site se trouvent dans le dossier *_uploads*.
 Les dossiers *_layouts* et *_includes* contiennent l'ensemble des templates *Jekyll* du site.
 
 une fois le process de construction du site terminé, l'ensemble du site est regroupé dans le dossier *_site*.
+
+## Préproduction
+
+La préproduction se trouve à l'adresse suivante :  [http://localhost:8000/](http://localhost:8000/)
+
+Le processing s'éffectue via Webpack sur l'url [http://localhost:3003/](http://localhost:3003/)
+
+
+## Commandes en ligne (cli)
+
+Voir le fichier *README.md* dans le dossier *_process*

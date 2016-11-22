@@ -5,6 +5,7 @@ module.exports = {
   },
   local: 'http://localhost',
   port: 3003,
+  folder: '/exposition-harmonies',
   html: false,
   assets_url: '/assets/',  // Build Folder
   assets_path: './assets/', // Build Path
