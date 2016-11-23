@@ -9,7 +9,7 @@ galerie-images:
   legende: L'ancienne Mairie de Commentry
 - image: "/uploads/08/08_construction-800x600.jpg"
   legende: Construction de la Mairie de Commentry
-- image: "/uploads/08/08_mairieannée60-800x600.jpg"
+- image: "/uploads/08/08_mairieannee60-800x600.jpg"
   legende: Mairie de Commentry dans les années 60
 - image: "/uploads/08/08_mairieannee70-1-800x60.jpg"
   legende: Mairie de Commentry dans les années 70

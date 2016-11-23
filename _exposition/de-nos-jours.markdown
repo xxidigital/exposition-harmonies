@@ -1,5 +1,12 @@
 ---
-title: De Nos Jours
+title: La Renaissance
+date: 2016-10-14 14:34:00 Z
+headline-image: "/uploads/14/14_aria-640x800.jpg"
+videos:
+- image: "/uploads/07/07_Thiers-600x600.jpg"
+  url: https://www.youtube.com/watch?v=dcFR6-KsYeM
+  titre: L’harmonie commentryenne en vidéo
+layout: exposition
 ---
 
 Avec la disparition de l'Harmonie des Forgerons en 1971, et faute de musique pour les services officiels, la municipalité fait appel à la fanfare de Villefranche. Mais cette situation ne satisfait personne. Il était souhaitable qu'un ensemble musical commentryen existe… d'où l'idée de recréer une harmonie. Mais pour y arriver, encore fallait-il former des musiciens… d'où l’idée de monter une école municipale de musique !

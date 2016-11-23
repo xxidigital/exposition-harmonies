@@ -1,5 +1,24 @@
 ---
-title: La Naissance Des Harmonies
+title: Les Ensembles Musicaux Commentryens
+date: 2016-10-06 13:34:00 Z
+headline-image: "/uploads/06/06_stephilarmonique-640x800.jpg"
+galerie-images:
+- image: "/uploads/06/06_societemusicamedesforgerons_1872-800x600.jpg"
+  legende: Société musicale des forgerons en 1872
+- image: "/uploads/06/06_societemusicaledesforgerons1872-800x600.jpg"
+  legende: Société musicale des forgerons en 1872
+- image: "/uploads/06/06_unionsymphonique1931-800x600.jpg"
+  legende: Union symphonique amicale de Commentry en 1931
+videos:
+- image: "/uploads/06/06_hyppolyte-dumazet-600x600.jpg"
+  url: https://www.youtube.com/watch?v=dcFR6-KsYeM
+  titre: Hippolyte Dumazet par Henri Laville
+  duree: 3'43
+audio:
+- reference: 3466391675
+  url: http://expositionharmonies.bandcamp.com/album/s-quence-06
+  titre: Histoire contée 03
+layout: exposition
 ---
 
 De la Société philarmonique à l’Union symphonique de Commentry, en passant par la Société musicale des Forgerons et l’Union chorale de Commentry : Voilà quelles furent les orchestres d’harmonie de Commentry.

@@ -4,9 +4,9 @@ date: 2016-10-07 13:34:00 Z
 headline-image: "/uploads/07/07_Concours-640x800.jpg"
 videos:
 - image: "/uploads/07/07_Thiers-600x600.jpg"
-url: https://www.youtube.com/watch?v=dcFR6-KsYeM
-titre: Catastrophe Thiers
-duree: 1'32"
+  url: https://www.youtube.com/watch?v=b4TyK524A-o
+  titre: La catastrophe de Thiers
+  duree:
 audio:
 - reference: 4153343193
   url: http://expositionharmonies.bandcamp.com/album/s-quence-07-2

@@ -23,11 +23,6 @@ galerie-images:
   legende: Mineur
 - image: "/uploads/05/05_mineurcommentry-2-800x600.jpg"
   legende: Mineur
-videos:
-- image: "/uploads/05/05_Lamadelon.jpg"
-  url: https://www.youtube.com/watch?v=FDdReYblKsE
-  titre: La Madelon
-  duree: 3'24"
 audio:
 - reference: 2490104032
 url: http://expositionharmonies.bandcamp.com/album/s-quence-05

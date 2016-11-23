@@ -3,10 +3,10 @@ title: La famille des saxhorns
 date: 2016-10-02 13:34:00 Z
 headline-image: "/uploads/02/02_saxhorn-800x640.jpg"
 videos:
-- image: "/uploads/01/01_adolfsaxVideo2_640x640.jpg"
-  url: https://www.youtube.com/watch?v=dcFR6-KsYeM
-  titre: Biographie d’Adolphe Sax
-  duree: 2 min
+- image: "/uploads/02/02_FilmSaxhorn-600x600.jpg"
+  url: https://www.youtube.com/watch?v=sh1P0XEb1as
+  titre: Présentation de la famille des saxhorns
+  duree:
 layout: exposition
 ---
 

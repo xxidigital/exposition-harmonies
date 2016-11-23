@@ -1,5 +1,5 @@
 ---
-title: La musique et la guerre
+title: Les Musiciens et La Guerre
 date: 2016-10-09 13:34:00 Z
 headline-image: "/uploads/09/09_pierre_800X640.jpg"
 galerie-images:
@@ -11,6 +11,11 @@ galerie-images:
   legende: Fanfare
 - image: "/uploads/09/09_claironsellierquisonnalecessezdefeule11novembre1918-800x600.jpg"
   legende: Clairon sellier qui sonna le cessez le feu le 11novembre 1918
+videos:
+- image: "/uploads/01/01_adolfsaxvideo1_640x640.jpg"
+  url: https://www.youtube.com/watch?v=dcFR6-KsYeM
+  titre: La mobilisation générale de la seconde guerre mondiale
+  duree:
 audio:
 - reference: 2110974241
   url: http://expositionharmonies.bandcamp.com/album/s-quence-09

@@ -1,10 +1,10 @@
 ---
-title: Question 3
-solution: 2
+title: Question 03
+solution: 1
 reponses:
-- label: 35
-- label: 41
-- label: 18
+- label: la clarinette
+- label: le saxophone
+- label: le hautbois
 ---
 
-Quel est l'age du capitaine ?
+Quel est l’instrument écouté dans l’extrait ?

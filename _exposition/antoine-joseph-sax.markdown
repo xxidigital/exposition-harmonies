@@ -12,11 +12,7 @@ videos:
 - image: "/uploads/01/01_adolfsaxvideo1_640x640.jpg"
   url: https://www.youtube.com/watch?v=dcFR6-KsYeM
   titre: Biographie d’Adolphe Sax
-  duree: 2'
-- image: "/uploads/01/01_adolfsaxVideo2_640x640.jpg"
-  url: https://www.youtube.com/watch?v=-bLqySDykww
-  titre: Pièce musicale
-  duree: 1'
+  duree: 
 audio:
 - reference: 1306303589
   url: https://goat.bandcamp.com/album/requiem

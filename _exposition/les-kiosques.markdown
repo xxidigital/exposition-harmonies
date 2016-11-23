@@ -5,7 +5,7 @@ headline-image: "/uploads/10/10_kiosquevichy-640x800.jpg"
 galerie-images:
 - image: "/uploads/10/10_kiosquevichy-2.jpg"
   legende: Vichy
-- image: "/uploads/10/10_kiosquemontluçon-800x600.jpg"
+- image: "/uploads/10/10_kiosquemontlucon-800x600.jpg"
   legende: Montluçon
 - image: "/uploads/10/10_kiosquecusset-3-800x600.jpg"
   legende: Cusset
@@ -23,12 +23,6 @@ galerie-images:
   legende: Cosne d'Allier
 - image: "/uploads/10/10_kiosqueboubonl'archambault-800x600.jpg"
   legende: Bourbon l'Archambault
-videos:
-- image: "/uploads/01/01_adolfsaxvideo1_640x640.jpg"
-  url: https://www.youtube.com/watch?v=dcFR6-KsYeM
-  titre: le rôle des orchestres d’harmonie dans la diffusion et la vulgarisation de
-    la culture musicale émanant de la Capitale
-  duree: 2'
 audio:
 - reference: 4002048387
   url: http://expositionharmonies.bandcamp.com/album/s-quence-10

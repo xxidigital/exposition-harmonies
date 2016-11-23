@@ -4,22 +4,22 @@ date: 2016-10-03 05:30:00 Z
 headline-image: "/uploads/03/03_saxophone_640x800.jpg"
 layout: exposition
 galerie-images:
-- image: "/uploads/03/03_saxophone2_800x640.jpg"
+- image: "/uploads/03/03_dessin_800x600.jpg"
   legende: Dessins préparatoires d’Adolphe Sax
 - image: "/uploads/03/03_saxophone_800x640.jpg"
   legende: Saxophone
 - image: "/uploads/03/03_colemanhawkins_800x640.jpg"
   legende: Coleman Hawkins
 videos:
-- image: "/uploads/01/adolfsax_640x800.jpg"
-  url: https://www.youtube.com/watch?v=dcFR6-KsYeM
-  titre: Biographie d’Adolphe Sax
-  duree: 2 min
+- image: "/uploads/03/03_FIlmSaxo-600x600.jpg"
+  url: https://www.youtube.com/watch?v=DAiKssusZfw
+  titre: Présentation de la famille des saxophones
+  duree:
 ---
 
 Le saxophone est un instrument de musique à vent appartenant à la famille des bois. Il a été inventé par Adolphe Sax et breveté à Paris en 1846.
 
-Le saxophone est généralement en laiton, bien qu’il en existe des modèles en cuivre, en argent, en plastique ou plaqués en or.
+Le saxophone est généralement en laiton, bien qu’il en existe des modèles en cuivre, en argent, en plastique ou plaqués or.
 
 La famille des saxophones comprenait 14 tailles, dont 4 sont couramment utilisées aujourd’hui, composant le quatuor de saxophones :
 * le saxophone soprano, en si bémol ;

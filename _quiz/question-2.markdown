@@ -1,10 +1,10 @@
 ---
-title: Question 2
-solution: 3
+title: Question 02
+solution: 2
 reponses:
-- label: bleu
-- label: rose
-- label: jaune
+- label: la Pichotte
+- label: le Bugle
+- label: la Contrebasse Sib
 ---
 
-De quelle couleur est la voiture jaune de Oui-Oui ?
+Quel est l’instrument le plus aigu de la famille des saxhorns ?
