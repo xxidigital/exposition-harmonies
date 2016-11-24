@@ -21,34 +21,35 @@ defaults:
     path: exposition
     type: exposition
   values:
-    headline-image: 
-    dates: 
+    headline-image:
+    dates:
     galerie-images:
-    - image: 
-      legende: 
+    - image:
+      legende:
     videos:
-    - image: 
-      url: 
-      titre: 
-      durée: 
+    - image:
+      url:
+      titre:
+      durée:
     audio:
-      reference: 
-      url: 
-      titre: 
+      reference:
+      url:
+      titre:
     layout: exposition
 - scope:
     path: quiz
     type: quiz
   values:
-    solution: 
-    file: 
-    reponse: 
+    solution:
+    file:
+    reponse:
     choix:
-      label: 
+      label:
     layout: quiz
 host: localhost
 port: 8000
 process: 3003
+env: production
 keep_files:
 - assets
 baseurl: ''
@@ -56,7 +57,7 @@ url: http://harmonies.21communication.net
 githuburl: https://xxidigital.github.io
 analytics: UA-XXXXX-Y
 email: jcf@xxi.fr
-description: 
+description:
 twitter_username: XXI_com
 github_username: xxidigital
 markdown: kramdown

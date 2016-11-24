@@ -16,39 +16,30 @@
           <!-- INLINE NAV -->
           <nav class="nav">
             <ul class="nav__list">
-              {% assign contenu = post.content | strip_newlines %}
-              {% if contenu != "" %}
-              <li class="nav__item">
+              <li class="ghost nav__item">
                 <a href="#mainboard" data-target="#content--text" class="cmd--reverse button nav__link" id="btn--open">
                   <span data-inject="vector" data-file="icon--text" class="icon"></span>
                   <span class="ghost">Texte</span>
                 </a>
               </li>
-              {% endif %}
-              {% if page.galerie-images %}
-              <li class="nav__item">
+              <li class="ghost nav__item">
                 <a href="#mainboard" data-target="#content--gallery" class="cmd--reverse button nav__link" id="btn--open">
                   <span data-inject="vector" data-file="icon--gallery" class="icon"></span>
                   <span class="ghost">Galerie</span>
                 </a>
               </li>
-              {% endif %}
-              {% if page.videos  %}
-              <li class="nav__item">
+              <li class="ghost nav__item">
                 <a href="#mainboard" data-target="#content--video" class="cmd--reverse button nav__link" id="btn--open">
                   <span data-inject="vector" data-file="icon--tv" class="icon"></span>
                   <span class="ghost">Videos</span>
                 </a>
               </li>
-              {% endif %}
-              {% if page.audio %}
-              <li class="nav__item">
+              <li class="ghost nav__item">
                 <a href="#mainboard" data-target="#content--audio" class="cmd--reverse button nav__link" id="btn--open">
                   <span data-inject="vector" data-file="icon--audio" class="icon"></span>
                   <span class="ghost">Audio</span>
                 </a>
               </li>
-              {% endif %}
             </ul>
           </nav>
           <!-- /INLINE NAV -->

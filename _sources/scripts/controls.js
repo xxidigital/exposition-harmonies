@@ -4,12 +4,13 @@
     // Document ready
     document.addEventListener('DOMContentLoaded', function() {
         // DISPLAY BUTTONS
-        /*
         [].map.call(document.querySelectorAll('.content'), function(contenus) {
           var cibleId = contenus.id;
-          document.querySelector('[data-target="#'+cibleId+'"]').classList.remove('ghost');
+          if(contenus.childElementCount > 1) {
+            console.log(document.querySelector('[data-target="#'+cibleId+'"]').parentNode.classList);
+            document.querySelector('[data-target="#'+cibleId+'"]').parentNode.classList.remove('ghost');
+          }
         });
-        */
 
         // DISPLAY MEDIAS
         [].map.call(document.querySelectorAll(".cmd--reverse"), function(element) {

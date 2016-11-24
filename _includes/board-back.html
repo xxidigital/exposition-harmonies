@@ -6,23 +6,12 @@
     <span data-inject="vector" data-file="icon--close" class="icon"></span>
   </a>
   <span data-inject="vector" data-file="logotype" class="logotype--negative logotype--small"></span>
-{% assign contenu = post.content | strip_newlines %}
-{% if contenu != "" %}
-  <!-- CONTENT--TEXT -->
   <article class="content side side--full" id="content--text">
     <h1>{{page.title}}</h1>
     {{ content }}
     </article>
-    <!-- /CONTENT--TEXT -->
-    {% endif %}
-    {% if page.galerie-images %}
     {% include  medias-galerie.html %}
-    {% endif %}
-    {% if page.videos %}
     {% include medias-videos.html %}
-    {% endif %}
-    {% if page.audio %}
     {% include medias-audio.html %}
-    {% endif %}
 </section>
 <!-- /BOARD -->
