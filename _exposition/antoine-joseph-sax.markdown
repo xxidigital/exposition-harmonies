@@ -10,9 +10,9 @@ galerie-images:
   legende: Caricature d’Adolphe Sax
 videos:
 - image: "/uploads/01/01_adolfsaxvideo1_640x640.jpg"
-  url: https://www.youtube.com/watch?v=dcFR6-KsYeM
+  url: https://www.youtube.com/watch?v=cZhH7R7Bj_4
   titre: Biographie d’Adolphe Sax
-  duree: 
+  duree:
 audio:
 - reference: 1306303589
   url: https://goat.bandcamp.com/album/requiem

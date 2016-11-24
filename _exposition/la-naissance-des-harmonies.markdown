@@ -11,9 +11,9 @@ galerie-images:
   legende: Union symphonique amicale de Commentry en 1931
 videos:
 - image: "/uploads/06/06_hyppolyte-dumazet-600x600.jpg"
-  url: https://www.youtube.com/watch?v=dcFR6-KsYeM
+  url: https://www.youtube.com/watch?v=wkoiZbfiuWA
   titre: Hippolyte Dumazet par Henri Laville
-  duree: 3'43
+  duree:
 audio:
 - reference: 3466391675
   url: http://expositionharmonies.bandcamp.com/album/s-quence-06
