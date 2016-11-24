@@ -14,9 +14,9 @@ videos:
   titre: Biographie d’Adolphe Sax
   duree:
 audio:
-- reference: 1306303589
-  url: https://goat.bandcamp.com/album/requiem
-  titre: Requiem by Goat
+- reference: 1514967365
+  url: http://expositionharmonies.bandcamp.com/album/s-quence-01
+  titre: Séquence 01
 layout: exposition
 ---
 

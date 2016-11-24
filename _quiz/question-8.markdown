@@ -1,6 +1,7 @@
 ---
 title: Question 08
 solution: 2
+file: uploads/trombone.mp3
 reponses:
 - label: un trombone
 - label: un euphonium

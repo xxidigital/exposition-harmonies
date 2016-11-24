@@ -13,7 +13,7 @@ videos:
 - image: "/uploads/01/01_adolfsaxvideo1_640x640.jpg"
   url: https://www.youtube.com/watch?v=dcFR6-KsYeM
   titre: Et pendant ce temps-là… retro des années
-  duree: 2'
+  duree:
 audio:
 - reference: 4248744315
   url: http://expositionharmonies.bandcamp.com/album/s-quence-13

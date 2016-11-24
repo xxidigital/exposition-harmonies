@@ -6,6 +6,10 @@ videos:
 - image: "/uploads/07/07_Thiers-600x600.jpg"
   url: https://www.youtube.com/watch?v=dcFR6-KsYeM
   titre: L’harmonie commentryenne en vidéo
+audio:
+- reference: 3937794479
+  url: http://expositionharmonies.bandcamp.com/album/s-quence-14
+  titre: Séquence 01
 layout: exposition
 ---
 

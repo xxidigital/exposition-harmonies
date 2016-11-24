@@ -15,6 +15,11 @@ videos:
   url: https://www.youtube.com/watch?v=DAiKssusZfw
   titre: Présentation de la famille des saxophones
   duree:
+audio:
+- reference: 2816502580
+  url: http://expositionharmonies.bandcamp.com/album/s-quence-03
+  titre: Séquence 03
+layout: exposition
 ---
 
 Le saxophone est un instrument de musique à vent appartenant à la famille des bois. Il a été inventé par Adolphe Sax et breveté à Paris en 1846.
