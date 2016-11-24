@@ -6,7 +6,8 @@
     <span data-inject="vector" data-file="icon--close" class="icon"></span>
   </a>
   <span data-inject="vector" data-file="logotype" class="logotype--negative logotype--small"></span>
-{% if page.content %}
+{% assign contenu = post.content | strip_newlines %}
+{% if contenu != "" %}
   <!-- CONTENT--TEXT -->
   <article class="content side side--full" id="content--text">
     <h1>{{page.title}}</h1>

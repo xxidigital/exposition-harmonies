@@ -17,7 +17,7 @@ videos:
 - image: "/uploads/11/11_video-600x600.jpg"
   url: https://www.youtube.com/watch?v=dcFR6-KsYeM
   titre: La seconde guerre mondiale
-  duree: 
+  duree:
 audio:
 - reference: 1104209032
   url: http://expositionharmonies.bandcamp.com/album/s-quence-11

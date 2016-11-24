@@ -16,7 +16,8 @@
           <!-- INLINE NAV -->
           <nav class="nav">
             <ul class="nav__list">
-              {% if page.content %}
+              {% assign contenu = post.content | strip_newlines %}
+              {% if contenu != "" %}
               <li class="nav__item">
                 <a href="#mainboard" data-target="#content--text" class="cmd--reverse button nav__link" id="btn--open">
                   <span data-inject="vector" data-file="icon--text" class="icon"></span>
