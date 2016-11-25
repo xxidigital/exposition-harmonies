@@ -7,7 +7,6 @@
         [].map.call(document.querySelectorAll('.content'), function(contenus) {
           var cibleId = contenus.id;
           if(contenus.childElementCount > 1) {
-            console.log(document.querySelector('[data-target="#'+cibleId+'"]').parentNode.classList);
             document.querySelector('[data-target="#'+cibleId+'"]').parentNode.classList.remove('ghost');
           }
         });

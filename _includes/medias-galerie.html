@@ -1,6 +1,7 @@
 <!-- CONTENT--GALERIE -->
 <article class="content side side--full" id="content--gallery">
   <h3>Galerie d'images</h3>
+  {% if page.galerie-images %}
   <ul class="gallery">
     {% for picture in page.galerie-images %}
     <li class="gallery__item">
@@ -12,5 +13,6 @@
     </li>
     {% endfor %}
   </ul>
+  {% endif %}
 </article>
 <!-- /CONTENT--GALERIE -->

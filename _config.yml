@@ -49,7 +49,6 @@ defaults:
 host: localhost
 port: 8000
 process: 3003
-env: production
 keep_files:
 - assets
 baseurl: ''
