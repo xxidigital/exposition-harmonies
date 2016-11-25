@@ -9,11 +9,6 @@ galerie-images:
   legende: Fauteuil années 70
 - image: "/uploads/13/13_teppaz-800x600.jpg"
   legende: Teppaz
-videos:
-- image: "/uploads/01/01_adolfsaxvideo1_640x640.jpg"
-  url: https://www.youtube.com/watch?v=dcFR6-KsYeM
-  titre: Et pendant ce temps-là… retro des années
-  duree:
 audio:
 - reference: 4248744315
   url: http://expositionharmonies.bandcamp.com/album/s-quence-13
