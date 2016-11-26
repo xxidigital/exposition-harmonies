@@ -1,6 +1,6 @@
 ---
 title: Question 07
-solution: 1
+solution: 2
 reponses:
 - label: Canonnier
 - label: brancardier

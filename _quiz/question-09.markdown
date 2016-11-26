@@ -7,4 +7,4 @@ reponses:
 - label: le cor d’Harmonie
 ---
 
-Quel instrument ne fait joue pas dans un orchestre d’harmonie ?
+Quel instrument ne joue pas dans un orchestre d’harmonie ?
