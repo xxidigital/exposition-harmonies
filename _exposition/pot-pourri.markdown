@@ -17,8 +17,6 @@ videos:
 - image: "/uploads/11/11_video-600x600.jpg"
   url: https://www.youtube.com/watch?v=1O99gE4m8xM
   titre: La seconde guerre mondiale en images
-  url: https://www.youtube.com/watch?v=dcFR6-KsYeM
-  titre: La seconde guerre mondiale
   duree:
 audio:
 - reference: 1104209032

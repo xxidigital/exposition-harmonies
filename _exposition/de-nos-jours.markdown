@@ -2,6 +2,11 @@
 title: La Renaissance
 date: 2016-10-14 14:34:00 Z
 headline-image: "/uploads/14/14_aria-640x800.jpg"
+videos:
+- image: "/uploads/14/14_video1-600x600.jpg"
+  url: https://www.youtube.com/watch?v=ED0YPmihZ3Y
+  titre: Soupçons d'harmonie
+  duree:
 audio:
 - reference: 3937794479
   url: http://expositionharmonies.bandcamp.com/album/s-quence-14

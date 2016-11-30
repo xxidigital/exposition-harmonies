@@ -23,6 +23,11 @@ galerie-images:
   legende: Cosne d'Allier
 - image: "/uploads/10/10_kiosqueboubonl'archambault-800x600.jpg"
   legende: Bourbon l'Archambault
+videos:
+- image: "/uploads/10/10_video1-600x600.jpg"
+  url: https://www.youtube.com/watch?v=zxLeVBxPMKg
+  titre: Diaporama
+  duree:
 audio:
 - reference: 4002048387
   url: http://expositionharmonies.bandcamp.com/album/s-quence-10
