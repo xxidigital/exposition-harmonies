@@ -11,11 +11,6 @@ galerie-images:
   legende: Fanfare
 - image: "/uploads/09/09_claironsellierquisonnalecessezdefeule11novembre1918-800x600.jpg"
   legende: Clairon sellier qui sonna le cessez le feu le 11novembre 1918
-videos:
-- image: "/uploads/11/11_video1-600x600.jpg"
-  url: https://www.youtube.com/watch?v=3cpEJHYs9hM
-  titre: Mobilisation générale en 1939
-  duree:
 audio:
 - reference: 2110974241
   url: http://expositionharmonies.bandcamp.com/album/s-quence-09

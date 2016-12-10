@@ -13,11 +13,6 @@ galerie-images:
   legende: La libération
 - image: "/uploads/11/11_laliberationdeMoulins-2-800x600.jpg"
   legende: La libération
-videos:
-- image: "/uploads/11/11_video-600x600.jpg"
-  url: https://www.youtube.com/watch?v=1O99gE4m8xM
-  titre: La seconde guerre mondiale en images
-  duree:
 audio:
 - reference: 1104209032
   url: http://expositionharmonies.bandcamp.com/album/s-quence-11
