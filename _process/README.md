@@ -36,6 +36,12 @@ Installation des dépendences du projet
 yarn install
 ```
 
+Install rimraf globally:
+
+```
+npm install rimraf -g
+```
+
 ## Lignes de commandes du process
 
 Lancement du serveur de développement

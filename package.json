@@ -5,9 +5,9 @@
   "main": "",
   "scripts": {
     "updates": "npm-check-updates -u",
-    "build": "rimraf assets && webpack --config _process/webpack.prod.js && rimraf _site && JEKYLL_ENV=production jekyll build",
+    "build": "rimraf assets && webpack --config _process/webpack.prod.js && rimraf _site && JEKYLL_ENV=production bundle exec jekyll build",
     "front": "node _process/server.js",
-    "dev": "concurrently \"node _process/server.js\" \"bundle exec jekyll serve\" --kill-others",
+    "dev": "concurrently 'node _process/server.js' 'bundle exec jekyll serve' --kill-others",
     "deploy": "npm run build && gh-pages -d _site"
   },
   "author": "Rodolphe MICHARD <rodolphemichard@gmail.com>",
